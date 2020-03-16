@@ -73,8 +73,8 @@ encoded_validation = codecs.open('data/train_samples.txt', encoding='utf-8')
 validation_sentences = np.genfromtxt(encoded_validation, delimiter='\t', dtype=None, names=('ID', 'Text'),encoding='None')
 validation_labels = np.loadtxt('data/validation_source_labels.txt')
 
-# encoded_test = codecs.open('data/train_samples.txt', encoding='utf-8')
-# test_sentences = np.genfromtxt(encoded_test, delimiter='\t', dtype=None, names=('ID', 'Text'))
+encoded_test = codecs.open('data/train_samples.txt', encoding='utf-8')
+test_sentences = np.genfromtxt(encoded_test, delimiter='\t', dtype=None, names=('ID', 'Text'),encoding='None')
 
 # np.load = np_load_old
 
@@ -86,23 +86,26 @@ dict_data = bagofwords.build_vocabulary(train_sentences)
 print("Lungime dictionar:" + str(len(dict_data)))
 
 # get features
-features_train = bagofwords.get_features(train_sentences['Text'])
-features_validation = bagofwords.get_features(validation_sentences['Text'])
-# features_test = bagofwords.get_features(test_sentences['Text'])
+features_train = bagofwords.get_features(train_sentences['Text'][:1000])
+features_validation = bagofwords.get_features(validation_sentences['Text'][:1000])
+features_test = bagofwords.get_features(test_sentences['Text'])
 
 normalized_train = normalize_data(features_train, "l2")
 normalized_validation = normalize_data(features_validation, "l2")
-# normalized_test = normalize_data(features_test, "l2")
+normalized_test = normalize_data(features_test, "l2")
 
-print(normalized_train)
-print(normalized_validation)
+# print(normalized_train)
+# print(normalized_validation)
 # print(normalized_test)
 
 # SVM model
 C_param = 1
 svm_model = svm.SVC(C_param, "linear") # kernel liniar
-svm_model.fit(normalized_train, train_labels) # train
-predicted_labels = svm_model.predict(normalized_validation) # predict
+svm_model.fit(normalized_train, train_labels[:1000, 1]) # train
+predicted_val_labels = svm_model.predict(normalized_validation) # predict
+predicted_test_labels = svm_model.predict(normalized_test) # predict
 
-print("Accuracy: " + str(calc_accuracy(predicted_labels, validation_labels)))
+np.savetxt('predictii.txt', predicted_test_labels.astype(int))  # salveaza predictiile in fisier
+
+print("Accuracy: " + str(calc_accuracy(predicted_val_labels, validation_labels[:1000, 1])))
 
