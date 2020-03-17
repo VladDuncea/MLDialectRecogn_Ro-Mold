@@ -1,8 +1,10 @@
-import codecs
 import math
+import sys
+import csv
 from sklearn import preprocessing
 from sklearn import svm
 import numpy as np
+import time
 
 
 def calc_accuracy(predicted, true):
@@ -18,21 +20,22 @@ def normalize_data(data, type=None):
         stand.fit(data)
         data = stand.transform(data)
     elif type == 'min_max':
-        x = 1+1
+        x = 1 + 1
     # posibil sa trebuiasca sa fac l1,l2 cu numpy !!!
     elif type == 'l1':
+        val = np.sum(abs(data), axis=1)
+        np.savetxt('test2.txt', val)
+        norm_data = np.zeros(len(data))
         for i in range(len(data)):
-            norm_data = 0
             for j in range(len(data[i])):
-                norm_data += abs(data[i, j])
-            data[i] /= norm_data
+                norm_data[i] += abs(data[i, j])
+            if norm_data[i] != 0:
+                data[i] /= norm_data[i]
+        np.savetxt('actual2.txt', norm_data)
     elif type == 'l2':
-        for i in range(len(data)):
-            norm_data = 0
-            for j in range(len(data[i])):
-                norm_data += math.sqrt((data[i, j])**2)
-            if norm_data != 0:
-                data[i] /= norm_data
+        norm_data = np.sqrt(np.sum(data ** 2, axis=1))
+        norm_data = np.where(norm_data == 0, 1, norm_data)
+        data /= norm_data[:, None]
     return data
 
 
@@ -43,10 +46,10 @@ class BagOfWords:
         self.word_list = []
 
     def build_vocabulary(self, data):
-        index =0
+        index = 0
         for sentence in data:
             for word in sentence:
-                if (word != "$NE$") and (word not in self.dictData):
+                if (word != '$NE$') and (word not in self.dictData):
                     self.dictData[word] = index
                     self.word_list.append(word)
                     index += 1
@@ -61,51 +64,133 @@ class BagOfWords:
         return features
 
 
+def prep_data(data):
+    new_data = []
+    index = 0
+    for sentence in data:
+        new_data.append(list(filter(None, sentence.replace(',', '').replace('.', '').replace(')', '').replace('(', '')
+                                    .replace('0', '').replace('1', '').replace('2', '').replace('3', '').replace('4',
+                                                                                                                 '').replace(
+            '5', '')
+                                    .replace('6', '').replace('7', '').replace('8', '').replace('9', '').replace('‘',
+                                                                                                                 '')
+                                    .replace(';', '').replace('%', '').replace('“', '').replace('_', '').replace('@',
+                                                                                                                 '').replace(
+            '”', '')
+                                    .replace('…', '').replace('{', '').replace('}', '').replace('\'', '').replace('„',
+                                                                                                                  '').replace(
+            '’', '')
+                                    .replace('"', '').replace('|', '').replace('', '').replace('*', '').replace('«',
+                                                                                                                 '').replace(
+            '»', '')
+                                    .replace(':', '').replace('$NE$', '').upper().split(" "))))
+    return new_data
+
+
+# timing
+
+start_time = time.time()
+
 # load data
-# np_load_old = np.load
-# modify the default parameters of np.load
-# np.load = lambda *a, **k: np_load_old(*a, allow_pickle=True, **k)
-encoded_train = codecs.open('data/train_samples.txt', encoding='utf-8')
-train_sentences = np.genfromtxt(encoded_train, delimiter='\t', dtype=None, names=('ID', 'Text'),encoding='None')
+
+train_data = np.genfromtxt('data/train_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'), encoding='utf-8')
 train_labels = np.loadtxt('data/train_labels.txt')
 
-encoded_validation = codecs.open('data/train_samples.txt', encoding='utf-8')
-validation_sentences = np.genfromtxt(encoded_validation, delimiter='\t', dtype=None, names=('ID', 'Text'),encoding='None')
-validation_labels = np.loadtxt('data/validation_source_labels.txt')
+validation_data1 = np.genfromtxt('data/validation_source_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'),
+                                 encoding='utf-8')
+validation_data2 = np.genfromtxt('data/validation_target_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'),
+                                 encoding='utf-8')
+validation_labels1 = np.loadtxt('data/validation_source_labels.txt')[:,1]
+validation_labels2 = np.loadtxt('data/validation_target_labels.txt')[:,1]
 
-encoded_test = codecs.open('data/train_samples.txt', encoding='utf-8')
-test_sentences = np.genfromtxt(encoded_test, delimiter='\t', dtype=None, names=('ID', 'Text'),encoding='None')
+test_data = np.genfromtxt('data/test_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'), encoding='utf-8')
 
-# np.load = np_load_old
+print("Done opening data")
+print("--- %s seconds ---" % (time.time() - start_time))
 
+# prepare data
+train_sentences = prep_data(train_data['Text'])
+# print(train_sentences[:])
+validation_sentences1 = prep_data(validation_data1['Text'])
+validation_sentences2 = prep_data(validation_data2['Text'])
+test_sentences = prep_data(test_data['Text'])
 
 # create class
 bagofwords = BagOfWords()
 # build train dict
-dict_data = bagofwords.build_vocabulary(train_sentences)
+dict_data = bagofwords.build_vocabulary(train_sentences[:1000])
+
+# words = 0
+# for key, val in bagofwords.dictData.items():
+#     if words == 15:
+#         print(key)
+#         words =0
+#     print(key, end =" ")
+#     words+=1
+
+print(" -------------- ")
 print("Lungime dictionar:" + str(len(dict_data)))
+print("--- %s seconds ---" % (time.time() - start_time))
 
 # get features
-features_train = bagofwords.get_features(train_sentences['Text'][:1000])
-features_validation = bagofwords.get_features(validation_sentences['Text'][:1000])
-features_test = bagofwords.get_features(test_sentences['Text'])
+features_train = bagofwords.get_features(train_sentences[:1000])
+features_validation1 = bagofwords.get_features(validation_sentences1)
+features_validation2 = bagofwords.get_features(validation_sentences2)
+features_test = bagofwords.get_features(test_sentences)
+
+print("Done features")
+print("--- %s seconds ---" % (time.time() - start_time))
 
 normalized_train = normalize_data(features_train, "l2")
-normalized_validation = normalize_data(features_validation, "l2")
+normalized_validation1 = normalize_data(features_validation1, "l2")
+normalized_validation2 = normalize_data(features_validation2, "l2")
 normalized_test = normalize_data(features_test, "l2")
+
+print("Done normalization")
+print("--- %s seconds ---" % (time.time() - start_time))
 
 # print(normalized_train)
 # print(normalized_validation)
 # print(normalized_test)
 
 # SVM model
-C_param = 1
-svm_model = svm.SVC(C_param, "linear") # kernel liniar
-svm_model.fit(normalized_train, train_labels[:1000, 1]) # train
-predicted_val_labels = svm_model.predict(normalized_validation) # predict
-predicted_test_labels = svm_model.predict(normalized_test) # predict
+# C_vals = [0.01,0.1,0.5,1,5,10,50,100,200]
+C_vals = [1]
+accuracy1 = np.zeros(len(C_vals))
+accuracy2 = np.zeros(len(C_vals))
+for i in range(len(C_vals)):
+    C_param = C_vals[i]
+    svm_model = svm.SVC(C_param, "linear", verbose=1)  # kernel liniar
+    svm_model.fit(normalized_train, train_labels[:1000, 1])  # train
+    print("Done fitting")
+    print("--- %s seconds ---" % (time.time() - start_time))
 
-np.savetxt('predictii.txt', predicted_test_labels.astype(int))  # salveaza predictiile in fisier
+    predicted_val1_labels = svm_model.predict(normalized_validation1)  # predict
+    predicted_val2_labels = svm_model.predict(normalized_validation2)  # predict
+    print("Done predict validation")
+    print("--- %s seconds ---" % (time.time() - start_time))
 
-print("Accuracy: " + str(calc_accuracy(predicted_val_labels, validation_labels[:1000, 1])))
+    predicted_test_labels = svm_model.predict(normalized_test)  # predict
+    # write to file
+    w = csv.writer(open("predictii" + str(C_param) + ".csv", "w", newline=''))
+    w.writerow(["id", "label"])
+    for i in range(len(predicted_test_labels)):
+        w.writerow([test_data['ID'][i], predicted_test_labels[i].astype(int)])
+    print("Done predict test")
+    print("--- %s seconds ---" % (time.time() - start_time))
 
+    # np.savetxt('predictii.txt', predicted_test_labels.astype(int))  # salveaza predictiile in fisier
+    np.savetxt("predictions.txt", predicted_val1_labels)
+    np.savetxt("labels.txt", validation_labels1)
+    print(predicted_val1_labels[5021])
+    print(validation_labels1[5021])
+    accuracy1[i] = calc_accuracy(predicted_val1_labels, validation_labels1)
+    accuracy2[i] = calc_accuracy(predicted_val2_labels, validation_labels2)
+    print("Accuracy1: " + str(accuracy1[i]))
+    print("Accuracy2: " + str(accuracy2[i]))
+
+    print("DONE")
+    print("--- %s seconds ---" % (time.time() - start_time))
+
+np.savetxt('acuratete1.txt', accuracy1)
+np.savetxt('acuratete2.txt', accuracy2)
