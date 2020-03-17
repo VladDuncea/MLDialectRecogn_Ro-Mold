@@ -118,7 +118,7 @@ test_sentences = prep_data(test_data['Text'])
 # create class
 bagofwords = BagOfWords()
 # build train dict
-dict_data = bagofwords.build_vocabulary(train_sentences[:1000])
+dict_data = bagofwords.build_vocabulary(train_sentences[:7000])
 
 # words = 0
 # for key, val in bagofwords.dictData.items():
@@ -133,7 +133,7 @@ print("Lungime dictionar:" + str(len(dict_data)))
 print("--- %s seconds ---" % (time.time() - start_time))
 
 # get features
-features_train = bagofwords.get_features(train_sentences[:1000])
+features_train = bagofwords.get_features(train_sentences[:7000])
 features_validation1 = bagofwords.get_features(validation_sentences1)
 features_validation2 = bagofwords.get_features(validation_sentences2)
 features_test = bagofwords.get_features(test_sentences)
@@ -154,14 +154,15 @@ print("--- %s seconds ---" % (time.time() - start_time))
 # print(normalized_test)
 
 # SVM model
-C_vals = [0.01,0.1,0.5,1,5,10,50,100,200]
-# C_vals = [1]
+C_vals = [1,5,10,50,100,200]
+# C_vals = [10]
 accuracy1 = np.zeros(len(C_vals))
 accuracy2 = np.zeros(len(C_vals))
 for i in range(len(C_vals)):
     C_param = C_vals[i]
-    svm_model = svm.SVC(C_param, "linear", verbose=1)  # kernel liniar
-    svm_model.fit(normalized_train, train_labels[:1000, 1])  # train
+    svm.LinearSVC.max_iter = 10000
+    svm_model = svm.LinearSVC(C=C_param, verbose=1,max_iter=10000)  # kernel liniar
+    svm_model.fit(normalized_train, train_labels[:7000, 1])  # train
     print("Done fitting")
     print("--- %s seconds ---" % (time.time() - start_time))
 
@@ -188,10 +189,11 @@ for i in range(len(C_vals)):
         accuracy2[i] = calc_accuracy(predicted_val2_labels, validation_labels2)
         print("Accuracy1: " + str(accuracy1[i]))
         print("Accuracy2: " + str(accuracy2[i]))
+    print("---------------------------\n\n\n")
 
 print("DONE")
 print("--- %s seconds ---" % (time.time() - start_time))
 
 if len(C_vals) > 1:
-    np.savetxt('acuratete1.txt', accuracy1,fmt='%.2f',)
-    np.savetxt('acuratete2.txt', accuracy2,fmt='%.2f')
+    np.savetxt('acuratete2-1.txt', accuracy1,fmt='%.2f',)
+    np.savetxt('acuratete2-2.txt', accuracy2,fmt='%.2f')
