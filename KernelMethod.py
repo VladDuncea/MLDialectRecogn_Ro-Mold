@@ -154,8 +154,8 @@ print("--- %s seconds ---" % (time.time() - start_time))
 # print(normalized_test)
 
 # SVM model
-# C_vals = [0.01,0.1,0.5,1,5,10,50,100,200]
-C_vals = [1]
+C_vals = [0.01,0.1,0.5,1,5,10,50,100,200]
+# C_vals = [1]
 accuracy1 = np.zeros(len(C_vals))
 accuracy2 = np.zeros(len(C_vals))
 for i in range(len(C_vals)):
@@ -170,27 +170,28 @@ for i in range(len(C_vals)):
     print("Done predict validation")
     print("--- %s seconds ---" % (time.time() - start_time))
 
-    predicted_test_labels = svm_model.predict(normalized_test)  # predict
-    # write to file
-    w = csv.writer(open("predictii" + str(C_param) + ".csv", "w", newline=''))
-    w.writerow(["id", "label"])
-    for i in range(len(predicted_test_labels)):
-        w.writerow([test_data['ID'][i], predicted_test_labels[i].astype(int)])
-    print("Done predict test")
-    print("--- %s seconds ---" % (time.time() - start_time))
+    if len(C_vals) == 1:
+        predicted_test_labels = svm_model.predict(normalized_test)  # predict
+        # write to file
+        w = csv.writer(open("predictii" + str(C_param) + ".csv", "w", newline=''))
+        w.writerow(["id", "label"])
+        for i in range(len(predicted_test_labels)):
+            w.writerow([test_data['ID'][i], predicted_test_labels[i].astype(int)])
+        print("Done predict test")
+        print("--- %s seconds ---" % (time.time() - start_time))
 
-    # np.savetxt('predictii.txt', predicted_test_labels.astype(int))  # salveaza predictiile in fisier
-    np.savetxt("predictions.txt", predicted_val1_labels)
-    np.savetxt("labels.txt", validation_labels1)
-    print(predicted_val1_labels[5021])
-    print(validation_labels1[5021])
-    accuracy1[i] = calc_accuracy(predicted_val1_labels, validation_labels1)
-    accuracy2[i] = calc_accuracy(predicted_val2_labels, validation_labels2)
-    print("Accuracy1: " + str(accuracy1[i]))
-    print("Accuracy2: " + str(accuracy2[i]))
+    if len(C_vals) == 1:
+        print("Accuracy1: " + str(calc_accuracy(predicted_val1_labels, validation_labels1)))
+        print("Accuracy2: " + str(calc_accuracy(predicted_val2_labels, validation_labels2)))
+    else:
+        accuracy1[i] = calc_accuracy(predicted_val1_labels, validation_labels1)
+        accuracy2[i] = calc_accuracy(predicted_val2_labels, validation_labels2)
+        print("Accuracy1: " + str(accuracy1[i]))
+        print("Accuracy2: " + str(accuracy2[i]))
 
-    print("DONE")
-    print("--- %s seconds ---" % (time.time() - start_time))
+print("DONE")
+print("--- %s seconds ---" % (time.time() - start_time))
 
-np.savetxt('acuratete1.txt', accuracy1)
-np.savetxt('acuratete2.txt', accuracy2)
+if len(C_vals) > 1:
+    np.savetxt('acuratete1.txt', accuracy1,fmt='%.2f',)
+    np.savetxt('acuratete2.txt', accuracy2,fmt='%.2f')
