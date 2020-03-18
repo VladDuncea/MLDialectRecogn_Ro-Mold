@@ -26,14 +26,12 @@ def normalize_data(data, type=None):
     # posibil sa trebuiasca sa fac l1,l2 cu numpy !!!
     elif type == 'l1':
         val = np.sum(abs(data), axis=1)
-        np.savetxt('test2.txt', val)
         norm_data = np.zeros(len(data))
         for i in range(len(data)):
             for j in range(len(data[i])):
                 norm_data[i] += abs(data[i, j])
             if norm_data[i] != 0:
                 data[i] /= norm_data[i]
-        np.savetxt('actual2.txt', norm_data)
     elif type == 'l2':
         norm_data = np.sqrt(np.sum(data ** 2, axis=1))
         norm_data = np.where(norm_data == 0, 1, norm_data)
@@ -130,7 +128,7 @@ print("Lungime dictionar:" + str(len(dict_data)))
 print("--- %s seconds ---" % (time.time() - start_time))
 
 # get features
-features_train = bagofwords.get_features(train_sentences)
+features_train = bagofwords.get_features(train_sentences[:5000])
 features_validation1 = bagofwords.get_features(validation_sentences1)
 features_validation2 = bagofwords.get_features(validation_sentences2)
 features_test = bagofwords.get_features(test_sentences)
@@ -152,15 +150,15 @@ print("--- %s seconds ---" % (time.time() - start_time))
 # print(normalized_test)
 
 # SVM model
-# C_vals = [5, 10, 15, 20, 25]
-C_vals = [15]
-accuracy1 = np.zeros(len(C_vals))
-accuracy2 = np.zeros(len(C_vals))
-for i in range(len(C_vals)):
-    C_param = C_vals[i]
-    kn_model = KNeighborsClassifier(n_neighbors=3,algorithm='auto',leaf_size=30,n_jobs=-1)  # kneigh classifier
+Neigh_vals = [3, 5, 7, 10]
+# Neigh_vals = [15]
+accuracy1 = np.zeros(len(Neigh_vals))
+accuracy2 = np.zeros(len(Neigh_vals))
+for i in range(len(Neigh_vals)):
+    Neigh_param = Neigh_vals[i]
+    kn_model = KNeighborsClassifier(n_neighbors=3,algorithm='auto', leaf_size=30, n_jobs=-1)  # kneigh classifier
     # svm_model = svm.LinearSVC(C=C_param, verbose=0, max_iter=10000)  # kernel liniar
-    kn_model.fit(normalized_train, train_labels[:, 1])  # train
+    kn_model.fit(normalized_train, train_labels[:5000, 1])  # train
     print("Done fitting")
     print("--- %s seconds ---" % (time.time() - start_time))
 
@@ -172,17 +170,8 @@ for i in range(len(C_vals)):
     print("Done predict validation")
     print("--- %s seconds ---" % (time.time() - start_time))
 
-    if len(C_vals) == 1:
-        predicted_test_labels = kn_model.predict(normalized_test)  # predict
-        # write to file
-        w = csv.writer(open("predictii" + str(C_param) + ".csv", "w", newline=''))
-        w.writerow(["id", "label"])
-        for i in range(len(predicted_test_labels)):
-            w.writerow([test_data['ID'][i], predicted_test_labels[i].astype(int)])
-        print("Done predict test")
-        print("--- %s seconds ---" % (time.time() - start_time))
-
-    if len(C_vals) == 1:
+    print("Neighbours: " + str(Neigh_param) + "Leaf size: " + str(30))
+    if len(Neigh_vals) == 1:
         print("Accuracy1: " + str(calc_accuracy(predicted_val1_labels, validation_labels1)))
         print("Accuracy2: " + str(calc_accuracy(predicted_val2_labels, validation_labels2)))
     else:
@@ -192,6 +181,16 @@ for i in range(len(C_vals)):
         print("Accuracy2: " + str(accuracy2[i]))
     print("F1-Score1: " + str(sklearn.metrics.f1_score(predicted_val1_labels, validation_labels1)))
     print("F1-Score2: " + str(sklearn.metrics.f1_score(predicted_val2_labels, validation_labels2)))
+
+    if len(Neigh_vals) == 1:
+        predicted_test_labels = kn_model.predict(normalized_test)  # predict
+        # write to file
+        w = csv.writer(open("predictii" + str(Neigh_vals) + ".csv", "w", newline=''))
+        w.writerow(["id", "label"])
+        for i in range(len(predicted_test_labels)):
+            w.writerow([test_data['ID'][i], predicted_test_labels[i].astype(int)])
+        print("Done predict test")
+        print("--- %s seconds ---" % (time.time() - start_time))
     print("---------------------------\n")
 
 print("DONE")

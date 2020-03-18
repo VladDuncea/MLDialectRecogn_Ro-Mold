@@ -26,14 +26,14 @@ def normalize_data(data, type=None):
     # posibil sa trebuiasca sa fac l1,l2 cu numpy !!!
     elif type == 'l1':
         val = np.sum(abs(data), axis=1)
-        np.savetxt('test2.txt', val)
+
         norm_data = np.zeros(len(data))
         for i in range(len(data)):
             for j in range(len(data[i])):
                 norm_data[i] += abs(data[i, j])
             if norm_data[i] != 0:
                 data[i] /= norm_data[i]
-        np.savetxt('actual2.txt', norm_data)
+
     elif type == 'l2':
         norm_data = np.sqrt(np.sum(data ** 2, axis=1))
         norm_data = np.where(norm_data == 0, 1, norm_data)
