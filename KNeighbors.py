@@ -4,7 +4,7 @@ import csv
 
 import sklearn
 from sklearn import preprocessing
-from sklearn import svm
+from sklearn.neighbors import KNeighborsClassifier
 import numpy as np
 import time
 
@@ -158,14 +158,14 @@ accuracy1 = np.zeros(len(C_vals))
 accuracy2 = np.zeros(len(C_vals))
 for i in range(len(C_vals)):
     C_param = C_vals[i]
-    svm_model = svm.SVC(C=C_param, kernel='rbf', gamma='scale', verbose=1)  # kernel rbf
+    kn_model = KNeighborsClassifier(n_neighbors=3,algorithm='auto',leaf_size=30,n_jobs=-1)  # kneigh classifier
     # svm_model = svm.LinearSVC(C=C_param, verbose=0, max_iter=10000)  # kernel liniar
-    svm_model.fit(normalized_train, train_labels[:, 1])  # train
+    kn_model.fit(normalized_train, train_labels[:, 1])  # train
     print("Done fitting")
     print("--- %s seconds ---" % (time.time() - start_time))
 
-    predicted_val1_labels = svm_model.predict(normalized_validation1)  # predict
-    predicted_val2_labels = svm_model.predict(normalized_validation2)  # predict
+    predicted_val1_labels = kn_model.predict(normalized_validation1)  # predict
+    predicted_val2_labels = kn_model.predict(normalized_validation2)  # predict
     # predicted_val1_labels = np.round(np.clip(predicted_val1_labels,1,2))
     # predicted_val2_labels = np.round(np.clip(predicted_val2_labels,1,2))
 
@@ -173,7 +173,7 @@ for i in range(len(C_vals)):
     print("--- %s seconds ---" % (time.time() - start_time))
 
     if len(C_vals) == 1:
-        predicted_test_labels = svm_model.predict(normalized_test)  # predict
+        predicted_test_labels = kn_model.predict(normalized_test)  # predict
         # write to file
         w = csv.writer(open("predictii" + str(C_param) + ".csv", "w", newline=''))
         w.writerow(["id", "label"])
@@ -196,4 +196,3 @@ for i in range(len(C_vals)):
 
 print("DONE")
 print("--- %s seconds ---" % (time.time() - start_time))
-
