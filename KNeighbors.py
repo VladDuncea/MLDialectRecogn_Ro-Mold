@@ -114,7 +114,7 @@ test_sentences = prep_data(test_data['Text'])
 # create class
 bagofwords = BagOfWords()
 # build train dict
-dict_data = bagofwords.build_vocabulary(test_sentences)
+dict_data = bagofwords.build_vocabulary(train_sentences)
 
 # words = 0
 # for key, val in bagofwords.dictData.items():
@@ -128,10 +128,10 @@ print("Lungime dictionar:" + str(len(dict_data)))
 print("--- %s seconds ---" % (time.time() - start_time))
 
 # get features
-features_train = bagofwords.get_features(train_sentences[:5000])
+features_train = bagofwords.get_features(train_sentences)
 features_validation1 = bagofwords.get_features(validation_sentences1)
 features_validation2 = bagofwords.get_features(validation_sentences2)
-features_test = bagofwords.get_features(test_sentences)
+# features_test = bagofwords.get_features(test_sentences)
 
 print("Done features")
 print("--- %s seconds ---" % (time.time() - start_time))
@@ -140,7 +140,7 @@ print("--- %s seconds ---" % (time.time() - start_time))
 normalized_train = normalize_data(features_train, "l2")
 normalized_validation1 = normalize_data(features_validation1, "l2")
 normalized_validation2 = normalize_data(features_validation2, "l2")
-normalized_test = normalize_data(features_test, "l2")
+# normalized_test = normalize_data(features_test, "l2")
 
 print("Done normalization")
 print("--- %s seconds ---" % (time.time() - start_time))
@@ -150,15 +150,15 @@ print("--- %s seconds ---" % (time.time() - start_time))
 # print(normalized_test)
 
 # SVM model
-Neigh_vals = [3, 5, 7, 10]
+Neigh_vals = [1, 2, 3, 5]
 # Neigh_vals = [15]
 accuracy1 = np.zeros(len(Neigh_vals))
 accuracy2 = np.zeros(len(Neigh_vals))
 for i in range(len(Neigh_vals)):
     Neigh_param = Neigh_vals[i]
-    kn_model = KNeighborsClassifier(n_neighbors=3,algorithm='auto', leaf_size=30, n_jobs=-1)  # kneigh classifier
+    kn_model = KNeighborsClassifier(n_neighbors=Neigh_param,algorithm='auto', leaf_size=30, n_jobs=-1)  # kneigh classifier
     # svm_model = svm.LinearSVC(C=C_param, verbose=0, max_iter=10000)  # kernel liniar
-    kn_model.fit(normalized_train, train_labels[:5000, 1])  # train
+    kn_model.fit(normalized_train, train_labels[:, 1])  # train
     print("Done fitting")
     print("--- %s seconds ---" % (time.time() - start_time))
 

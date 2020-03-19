@@ -71,15 +71,15 @@ def prep_data(data):
     index = 0
     for sentence in data:
         words = list(filter(None, sentence.replace(',', '').replace('.', '').replace(')', '').replace('(', '')
-                                    .replace('0', '').replace('1', '').replace('2', '').replace('3', '').replace('4','')
-                                    .replace('5', '').replace('6', '').replace('7', '').replace('8', '').replace('9', '')
-                                    .replace('‘','').replace(';', '').replace('%', '').replace('“', '').replace('_', '')
-                                    .replace('@','').replace('”', '').replace('…', '').replace('{', '').replace('}', '')
-                                    .replace('\'', '').replace('„','').replace('’', '')
-                                    .replace('"', '').replace('|', '').replace('', '').replace('*', '').replace('«','')
-                                    .replace('»', '').replace(':', '').replace('$NE$', '').upper().split(" ")))
+                            .replace('0', '').replace('1', '').replace('2', '').replace('3', '').replace('4', '')
+                            .replace('5', '').replace('6', '').replace('7', '').replace('8', '').replace('9', '')
+                            .replace('‘', '').replace(';', '').replace('%', '').replace('“', '').replace('_', '')
+                            .replace('@', '').replace('”', '').replace('…', '').replace('{', '').replace('}', '')
+                            .replace('\'', '').replace('„', '').replace('’', '')
+                            .replace('"', '').replace('|', '').replace('', '').replace('*', '').replace('«', '')
+                            .replace('»', '').replace(':', '').replace('$NE$', '').upper().split(" ")))
         for word in words:
-            if len(word)<2 or len(word)>20:
+            if len(word) < 2 or len(word) > 20:
                 words.remove(word)
         new_data.append(words)
     return new_data
@@ -98,8 +98,8 @@ validation_data1 = np.genfromtxt('data/validation_source_samples.txt', delimiter
                                  encoding='utf-8')
 validation_data2 = np.genfromtxt('data/validation_target_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'),
                                  encoding='utf-8')
-validation_labels1 = np.loadtxt('data/validation_source_labels.txt')[:,1]
-validation_labels2 = np.loadtxt('data/validation_target_labels.txt')[:,1]
+validation_labels1 = np.loadtxt('data/validation_source_labels.txt')[:, 1]
+validation_labels2 = np.loadtxt('data/validation_target_labels.txt')[:, 1]
 
 test_data = np.genfromtxt('data/test_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'), encoding='utf-8')
 
@@ -113,10 +113,14 @@ validation_sentences1 = prep_data(validation_data1['Text'])
 validation_sentences2 = prep_data(validation_data2['Text'])
 test_sentences = prep_data(test_data['Text'])
 
+train_data = None
+validation_data1 = None
+validation_data2 = None
+
 # create class
 bagofwords = BagOfWords()
 # build train dict
-dict_data = bagofwords.build_vocabulary(test_sentences)
+dict_data = bagofwords.build_vocabulary(train_sentences)
 
 # words = 0
 # for key, val in bagofwords.dictData.items():
@@ -135,9 +139,11 @@ features_validation1 = bagofwords.get_features(validation_sentences1)
 features_validation2 = bagofwords.get_features(validation_sentences2)
 features_test = bagofwords.get_features(test_sentences)
 
+validation_sentences1 = None
+validation_sentences2 = None
+
 print("Done features")
 print("--- %s seconds ---" % (time.time() - start_time))
-
 
 normalized_train = normalize_data(features_train, "l2")
 normalized_validation1 = normalize_data(features_validation1, "l2")
@@ -158,8 +164,8 @@ accuracy1 = np.zeros(len(C_vals))
 accuracy2 = np.zeros(len(C_vals))
 for i in range(len(C_vals)):
     C_param = C_vals[i]
-    svm_model = svm.SVC(C=C_param, kernel='rbf', gamma='scale', verbose=1)  # kernel rbf
-    # svm_model = svm.LinearSVC(C=C_param, verbose=0, max_iter=10000)  # kernel liniar
+    # svm_model = svm.SVC(C=C_param, kernel='rbf', gamma='scale', verbose=1)  # kernel rbf
+    svm_model = svm.LinearSVC(C=C_param, verbose=0, max_iter=10000)  # kernel liniar
     svm_model.fit(normalized_train, train_labels[:, 1])  # train
     print("Done fitting")
     print("--- %s seconds ---" % (time.time() - start_time))
@@ -196,4 +202,3 @@ for i in range(len(C_vals)):
 
 print("DONE")
 print("--- %s seconds ---" % (time.time() - start_time))
-
