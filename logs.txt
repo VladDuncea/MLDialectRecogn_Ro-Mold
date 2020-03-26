@@ -1,0 +1,4062 @@
+Done opening data--- 2.9659998416900635 seconds ---Lungime dictionar:106499--- 11.32099986076355 seconds ---Lungime dictionar:106499--- 16.424999952316284 seconds ---Lungime dictionar:106499--- 116.3100004196167 seconds ---Lungime dictionar:106499--- 189.21900296211243 seconds ---
+Done opening data
+--- 3.109999895095825 seconds ---
+Lungime dictionar:101396
+--- 11.425000190734863 seconds ---
+Done features
+--- 16.210999727249146 seconds ---
+Done normalization
+--- 124.29300308227539 seconds ---
+Done fitting
+--- 190.61500000953674 seconds ---
+Done predict validation
+--- 198.15900039672852 seconds ---
+Done predict test
+--- 199.76800155639648 seconds ---
+Accuracy1: 0.9300793784833643
+Accuracy2: 0.5581395348837209
+F1-Score1: 0.9224719101123595
+F1-Score2: 0.3949044585987261---------------------------
+Done opening data
+--- 3.1379990577697754 seconds ---
+Lungime dictionar:97127
+--- 13.865999460220337 seconds ---
+
+Done features
+--- 18.012998819351196 seconds ---
+Done normalization
+--- 95.7510015964508 seconds ---
+Done fitting
+--- 164.3610017299652 seconds ---
+Done predict validation
+--- 174.13000416755676 seconds ---Done opening data
+--- 3.007000207901001 seconds ---
+Lungime dictionar:97127
+--- 13.223000049591064 seconds ---
+
+Done features
+--- 16.960999965667725 seconds ---
+Done normalization
+--- 110.98000144958496 seconds ---
+Done fitting
+--- 165.78000044822693 seconds ---
+Done predict validation
+--- 185.42399978637695 seconds ---Accuracy1: 0.9287282553622699Accuracy2: 0.5581395348837209
+F1-Score1: 0.9200454717696097
+F1-Score2: 0.3708609271523179---------------------------
+
+Done fitting
+--- 252.54100131988525 seconds ---
+Done predict validation
+--- 262.09300112724304 seconds ---Accuracy1: 0.929403816922817Accuracy2: 0.586046511627907
+F1-Score1: 0.9215759849906192
+F1-Score2: 0.4183006535947712---------------------------
+
+Done fitting
+--- 305.2800016403198 seconds ---
+Done predict validation
+--- 325.8610007762909 seconds ---Accuracy1: 0.9248437763891234Accuracy2: 0.586046511627907
+F1-Score1: 0.9167134568594423
+F1-Score2: 0.4258064516129032---------------------------
+
+Done fitting
+--- 397.7500009536743 seconds ---
+Done predict validation
+--- 410.6180007457733 seconds ---Accuracy1: 0.9241682148285763Accuracy2: 0.586046511627907
+F1-Score1: 0.9161218008593311
+F1-Score2: 0.4183006535947712---------------------------
+
+Done fitting
+--- 478.76100897789 seconds ---
+Done predict validation
+--- 497.3080098628998 seconds ---Accuracy1: 0.9229859820976186Accuracy2: 0.586046511627907
+F1-Score1: 0.9149888143176734
+F1-Score2: 0.4258064516129032---------------------------
+
+Done fitting
+--- 558.3960115909576 seconds ---
+Done predict validation
+--- 577.7330112457275 seconds ---Accuracy1: 0.9231548724877554Accuracy2: 0.586046511627907
+F1-Score1: 0.915127774668905
+F1-Score2: 0.4258064516129032---------------------------
+Done opening data
+--- 3.1040008068084717 seconds ---
+Lungime dictionar:97127
+--- 13.405998706817627 seconds ---
+Done features
+--- 17.43699884414673 seconds ---
+Done normalization
+--- 188.5360324382782 seconds ---
+Done fitting
+--- 256.10103273391724 seconds ---
+Done predict validation
+--- 281.12303376197815 seconds ---
+Done opening data
+--- 3.071000814437866 seconds ---
+Lungime dictionar:97127
+--- 13.239000082015991 seconds ---
+Done features
+--- 17.249000549316406 seconds ---
+Done normalization - METHOD: min_max
+--- 232.728999376297 seconds ---
+Done fitting
+--- 286.9630000591278 seconds ---
+Done predict validation
+--- 296.86400079727173 seconds ---
+Accuracy1: 0.9113325451781794
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.9013343356511935
+F1-Score2: 0.017391304347826087
+---------------------------
+
+Done fitting
+--- 382.88424038887024 seconds ---
+Done predict validation
+--- 393.90723943710327 seconds ---
+Accuracy1: 0.9032258064516129
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8926765311856152
+F1-Score2: 0.017391304347826087
+---------------------------
+
+Done fitting
+--- 485.01928973197937 seconds ---
+Done predict validation
+--- 494.38829016685486 seconds ---
+Accuracy1: 0.9000168890390137
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8894697535474234
+F1-Score2: 0.017391304347826087
+---------------------------
+
+Done fitting
+--- 581.9642901420593 seconds ---
+Done predict validation
+--- 593.5762882232666 seconds ---
+Accuracy1: 0.8978213139672353
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8870214752567693
+F1-Score2: 0.017391304347826087
+---------------------------
+
+Done fitting
+--- 703.5202901363373 seconds ---
+Done predict validation
+--- 713.5512897968292 seconds ---
+Accuracy1: 0.8952879581151832
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.884198729921554
+F1-Score2: 0.017391304347826087
+---------------------------
+
+Done fitting
+--- 818.6052885055542 seconds ---
+Done predict validation
+--- 832.4462909698486 seconds ---
+Accuracy1: 0.8935990542138152
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8824188129899216
+F1-Score2: 0.017391304347826087
+---------------------------
+
+Done opening data
+--- 3.043998956680298 seconds ---
+Lungime dictionar:97127
+--- 13.244999647140503 seconds ---
+Done features
+--- 17.08900213241577 seconds ---
+Done normalization - METHOD: l2
+--- 216.6210012435913 seconds ---
+Done fitting
+--- 298.08799958229065 seconds ---
+Done predict validation
+--- 306.3519995212555 seconds ---
+Accuracy1: 0.9287282553622699
+Accuracy2: 0.5581395348837209
+F1-Score1: 0.9200454717696097
+F1-Score2: 0.3708609271523179
+---------------------------
+
+Done fitting
+--- 373.7919991016388 seconds ---
+Done predict validation
+--- 379.39099979400635 seconds ---
+Accuracy1: 0.929403816922817
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9215759849906192
+F1-Score2: 0.4183006535947712
+---------------------------
+
+Done fitting
+--- 439.7980008125305 seconds ---
+Done predict validation
+--- 448.614999294281 seconds ---
+Accuracy1: 0.9248437763891234
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9167134568594423
+F1-Score2: 0.4258064516129032
+---------------------------
+
+Done fitting
+--- 510.71300172805786 seconds ---
+Done predict validation
+--- 518.6070020198822 seconds ---
+Accuracy1: 0.9241682148285763
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9161218008593311
+F1-Score2: 0.4183006535947712
+---------------------------
+
+Done fitting
+--- 604.3790006637573 seconds ---
+Done predict validation
+--- 612.8779993057251 seconds ---
+Accuracy1: 0.9229859820976186
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9149888143176734
+F1-Score2: 0.4258064516129032
+---------------------------
+
+Done fitting
+--- 693.1820003986359 seconds ---
+Done predict validation
+--- 702.4649999141693 seconds ---
+Accuracy1: 0.9231548724877554
+Accuracy2: 0.586046511627907
+F1-Score1: 0.915127774668905
+F1-Score2: 0.4258064516129032
+---------------------------
+
+Done opening data
+--- 2.9960005283355713 seconds ---
+Lungime dictionar:97127
+--- 13.080000400543213 seconds ---
+Done features
+--- 16.92700171470642 seconds ---
+Done normalization - METHOD: l2
+--- 212.3771071434021 seconds ---
+Done fitting
+--- 293.411785364151 seconds ---
+Done predict validation
+--- 302.2867856025696 seconds ---
+Done predict test
+--- 305.0217843055725 seconds ---
+Accuracy1: 0.9241682148285763
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9161218008593311
+F1-Score2: 0.4183006535947712
+---------------------------
+
+Done opening data
+--- 3.0110015869140625 seconds ---
+Lungime dictionar:95059
+--- 13.692001581192017 seconds ---
+Done features
+--- 17.400001525878906 seconds ---
+Done normalization - METHOD: l2
+--- 202.51200246810913 seconds ---
+Done fitting
+--- 274.3920030593872 seconds ---
+Done predict validation
+--- 282.9010007381439 seconds ---
+Done predict test
+--- 290.4450030326843 seconds ---
+Accuracy1: 0.9241682148285763
+Accuracy2: 0.5767441860465117
+F1-Score1: 0.9161844315848423
+F1-Score2: 0.4129032258064516
+---------------------------
+
+Done opening data
+--- 3.026000499725342 seconds ---
+Lungime dictionar:94998
+--- 13.65800142288208 seconds ---
+Done features
+--- 17.55000114440918 seconds ---
+Done normalization - METHOD: l2
+--- 222.92300176620483 seconds ---
+Done fitting
+--- 301.1000020503998 seconds ---
+Done predict validation
+--- 308.5530016422272 seconds ---
+Done predict test
+--- 315.30500197410583 seconds ---
+Accuracy1: 0.924337105218713
+Accuracy2: 0.5767441860465117
+F1-Score1: 0.9163867114594998
+F1-Score2: 0.4129032258064516
+---------------------------
+
+Done opening data
+--- 3.0259995460510254 seconds ---
+Lungime dictionar:82322
+--- 13.61400055885315 seconds ---
+Done features
+--- 17.249000072479248 seconds ---
+Done normalization - METHOD: l2
+--- 164.3239996433258 seconds ---
+Done fitting
+--- 227.921000957489 seconds ---
+Done predict validation
+--- 235.3039996623993 seconds ---
+Done predict test
+--- 240.65900015830994 seconds ---
+Accuracy1: 0.9125147779091369
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.903538175046555
+F1-Score2: 0.4662576687116564
+---------------------------
+
+Done opening data
+--- 3.178999662399292 seconds ---
+Lungime dictionar:82322
+--- 13.80199909210205 seconds ---
+Done features
+--- 17.365000009536743 seconds ---
+Done normalization - METHOD: l2
+--- 167.57899951934814 seconds ---
+Done fitting
+--- 225.88199996948242 seconds ---
+Done predict validation
+--- 232.28000593185425 seconds ---
+Accuracy1: 0.918425941563925
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.9081923588671356
+F1-Score2: 0.4230769230769231
+---------------------------
+
+Done fitting
+--- 278.98000049591064 seconds ---
+Done predict validation
+--- 298.39900040626526 seconds ---
+Accuracy1: 0.9157236953217361
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.9063965484899643
+F1-Score2: 0.45
+---------------------------
+
+Done fitting
+--- 353.0596127510071 seconds ---
+Done predict validation
+--- 359.1516122817993 seconds ---
+Accuracy1: 0.9142036818105049
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9051885031728257
+F1-Score2: 0.4662576687116564
+---------------------------
+
+Done fitting
+--- 403.285612821579 seconds ---
+Done predict validation
+--- 422.34206652641296 seconds ---
+Accuracy1: 0.9125147779091369
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.903538175046555
+F1-Score2: 0.4662576687116564
+---------------------------
+
+Done fitting
+--- 477.47006916999817 seconds ---
+Done predict validation
+--- 483.0450687408447 seconds ---
+Accuracy1: 0.911670325958453
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9026252094582015
+F1-Score2: 0.4662576687116564
+---------------------------
+
+Done fitting
+--- 540.1830697059631 seconds ---
+Done predict validation
+--- 545.370067358017 seconds ---
+Accuracy1: 0.9103192028373586
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9012827663134412
+F1-Score2: 0.4662576687116564
+---------------------------
+
+Done opening data
+--- 3.1929984092712402 seconds ---
+Lungime dictionar:82322
+--- 14.669999599456787 seconds ---
+Done features
+--- 18.416998386383057 seconds ---
+Done normalization - METHOD: l1
+--- 176.98999881744385 seconds ---
+Done fitting
+--- 227.6529986858368 seconds ---
+Done predict validation
+--- 233.91099977493286 seconds ---
+Accuracy1: 0.835162979226482
+Accuracy2: 0.586046511627907
+F1-Score1: 0.8033843674456084
+F1-Score2: 0.5781990521327014
+---------------------------
+
+Done fitting
+--- 288.74600100517273 seconds ---
+Done predict validation
+--- 295.66799902915955 seconds ---
+Accuracy1: 0.8816078365141023
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.8621977589935129
+F1-Score2: 0.5786802030456853
+---------------------------
+
+Done fitting
+--- 354.8430001735687 seconds ---
+Done predict validation
+--- 361.4449989795685 seconds ---
+Accuracy1: 0.8993413274784665
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.8844513377278015
+F1-Score2: 0.5729166666666666
+---------------------------
+
+Done fitting
+--- 418.8079981803894 seconds ---
+Done predict validation
+--- 425.718998670578 seconds ---
+Accuracy1: 0.9050836007431177
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.891631315079059
+F1-Score2: 0.5699481865284973
+---------------------------
+
+Done fitting
+--- 484.8389985561371 seconds ---
+Done predict validation
+--- 491.00999879837036 seconds ---
+Accuracy1: 0.9089680797162641
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.8964059196617337
+F1-Score2: 0.5549738219895288
+---------------------------
+
+Done fitting
+--- 547.8099992275238 seconds ---
+Done predict validation
+--- 555.4329981803894 seconds ---
+Accuracy1: 0.9104880932274954
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.8983895705521473
+F1-Score2: 0.5549738219895288
+---------------------------
+
+Done opening data
+--- 3.001999616622925 seconds ---
+Lungime dictionar:86125
+--- 11.840001344680786 seconds ---
+Done features
+--- 16.33899998664856 seconds ---
+Done normalization - METHOD: l1
+--- 183.73230171203613 seconds ---
+Done fitting
+--- 257.64830136299133 seconds ---
+Done predict validation
+--- 273.75130009651184 seconds ---
+Accuracy1: 0.8154028035804762
+Accuracy2: 0.5162790697674419
+F1-Score1: 0.7844606586472095
+F1-Score2: 0.5398230088495575
+---------------------------
+
+Done fitting
+--- 336.9463531970978 seconds ---
+Done predict validation
+--- 344.13335251808167 seconds ---
+Accuracy1: 0.8743455497382199
+Accuracy2: 0.5674418604651162
+F1-Score1: 0.8548009367681499
+F1-Score2: 0.5418719211822659
+---------------------------
+
+Done fitting
+--- 403.71785712242126 seconds ---
+Done predict validation
+--- 412.35885548591614 seconds ---
+Accuracy1: 0.8922479310927208
+Accuracy2: 0.586046511627907
+F1-Score1: 0.8762606671838635
+F1-Score2: 0.5527638190954774
+---------------------------
+
+Done fitting
+--- 469.64677023887634 seconds ---
+Done predict validation
+--- 475.7027704715729 seconds ---
+Accuracy1: 0.9001857794291505
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8857971014492754
+F1-Score2: 0.5408163265306122
+---------------------------
+
+Done fitting
+--- 543.0097715854645 seconds ---
+Done predict validation
+--- 550.8527746200562 seconds ---
+Accuracy1: 0.9033946968417497
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.8900422914263746
+F1-Score2: 0.553846153846154
+---------------------------
+
+Done fitting
+--- 617.7227714061737 seconds ---
+Done predict validation
+--- 626.4113509654999 seconds ---
+Accuracy1: 0.9059280526938017
+Accuracy2: 0.6
+F1-Score1: 0.8934786766112068
+F1-Score2: 0.5612244897959183
+---------------------------
+
+Done opening data
+--- 3.0059995651245117 seconds ---
+Lungime dictionar:86125
+--- 11.767000198364258 seconds ---
+Done features
+--- 16.016000509262085 seconds ---
+Done normalization - METHOD: l1
+--- 172.01523399353027 seconds ---
+[15, 20, 25, 40, 50]
+Done fitting
+--- 227.27490901947021 seconds ---
+Done predict validation
+--- 238.8419108390808 seconds ---
+Accuracy1: 0.9001857794291505
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8857971014492754
+F1-Score2: 0.5408163265306122
+---------------------------
+
+Done fitting
+--- 307.82501196861267 seconds ---
+Done predict validation
+--- 315.30801916122437 seconds ---
+Accuracy1: 0.9033946968417497
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.8900422914263746
+F1-Score2: 0.553846153846154
+---------------------------
+
+Done fitting
+--- 385.4090118408203 seconds ---
+Done predict validation
+--- 392.00501108169556 seconds ---
+Accuracy1: 0.9059280526938017
+Accuracy2: 0.6
+F1-Score1: 0.8934786766112068
+F1-Score2: 0.5612244897959183
+---------------------------
+
+Done fitting
+--- 462.07310366630554 seconds ---
+Done predict validation
+--- 470.68628907203674 seconds ---
+Accuracy1: 0.9140347914203681
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.9030291484092208
+F1-Score2: 0.5463917525773195
+---------------------------
+
+Done fitting
+--- 557.7985112667084 seconds ---
+Done predict validation
+--- 564.9545090198517 seconds ---
+Accuracy1: 0.9172437088329674
+Accuracy2: 0.586046511627907
+F1-Score1: 0.906773211567732
+F1-Score2: 0.538860103626943
+---------------------------
+
+Done opening data
+--- 3.1015052795410156 seconds ---
+Lungime dictionar:86040
+--- 13.937963962554932 seconds ---
+Done features
+--- 17.85296320915222 seconds ---
+Done normalization - METHOD: l1
+--- 191.16293144226074 seconds ---
+C:[15, 20, 25, 40, 50]
+Done fitting
+--- 252.2267768383026 seconds ---
+Done predict validation
+--- 268.1017761230469 seconds ---
+Accuracy1: 0.9064347238642121
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.8932973805855161
+F1-Score2: 0.5699481865284973
+---------------------------
+
+Done fitting
+--- 328.8967764377594 seconds ---
+Done predict validation
+--- 339.0037851333618 seconds ---
+Accuracy1: 0.9089680797162641
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.8964457252641691
+F1-Score2: 0.5549738219895288
+---------------------------
+
+Done fitting
+--- 409.35171151161194 seconds ---
+Done predict validation
+--- 414.4687190055847 seconds ---
+Accuracy1: 0.9101503124472218
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.8980061349693252
+F1-Score2: 0.5549738219895288
+---------------------------
+
+Done fitting
+--- 488.5847108364105 seconds ---
+Done predict validation
+--- 503.3507182598114 seconds ---
+Accuracy1: 0.9140347914203681
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.9028440542088186
+F1-Score2: 0.5858585858585859
+---------------------------
+
+Done fitting
+--- 563.2057592868805 seconds ---
+Done predict validation
+--- 577.0423114299774 seconds ---
+Accuracy1: 0.915892585711873
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9052871814378091
+F1-Score2: 0.592964824120603
+---------------------------
+
+Done opening data
+--- 3.012000560760498 seconds ---
+Lungime dictionar:86040
+--- 13.719000101089478 seconds ---
+Done features
+--- 17.583999395370483 seconds ---
+Done normalization - METHOD: l1
+--- 231.4788293838501 seconds ---
+C:[40, 50, 60, 70, 80]
+Done fitting
+--- 296.7938311100006 seconds ---
+Done predict validation
+--- 309.90182995796204 seconds ---
+Accuracy1: 0.9140347914203681
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.9028440542088186
+F1-Score2: 0.5858585858585859
+---------------------------
+
+Done fitting
+--- 385.58726811408997 seconds ---
+Done predict validation
+--- 393.853266954422 seconds ---
+Accuracy1: 0.915892585711873
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9052871814378091
+F1-Score2: 0.592964824120603
+---------------------------
+
+Done fitting
+--- 474.9112615585327 seconds ---
+Done predict validation
+--- 482.0832691192627 seconds ---
+Accuracy1: 0.9169059280526938
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9066059225512528
+F1-Score2: 0.6000000000000001
+---------------------------
+
+Done fitting
+--- 554.7876172065735 seconds ---
+Done predict validation
+--- 563.2376179695129 seconds ---
+Accuracy1: 0.9177503800033778
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9078872706638926
+F1-Score2: 0.5970149253731344
+---------------------------
+
+Done fitting
+--- 632.7606160640717 seconds ---
+Done predict validation
+--- 644.8903257846832 seconds ---
+Accuracy1: 0.9180881607836514
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9084732968484619
+F1-Score2: 0.5970149253731344
+---------------------------
+
+Done opening data
+--- 3.071244478225708 seconds ---
+Lungime dictionar:86040
+--- 13.903244972229004 seconds ---
+Done features
+--- 17.674245357513428 seconds ---
+Done normalization - METHOD: l1
+--- 188.5153293609619 seconds ---
+C:[55, 60, 65]
+Done fitting
+--- 255.22400379180908 seconds ---
+Done predict validation
+--- 273.8700051307678 seconds ---
+Accuracy1: 0.9163992568822834
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9059114236837102
+F1-Score2: 0.6000000000000001
+---------------------------
+
+Done fitting
+--- 348.1580047607422 seconds ---
+Done predict validation
+--- 362.4560055732727 seconds ---
+Accuracy1: 0.9169059280526938
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9066059225512528
+F1-Score2: 0.6000000000000001
+---------------------------
+
+Done fitting
+--- 433.52047991752625 seconds ---
+Done predict validation
+--- 442.52747988700867 seconds ---
+Accuracy1: 0.9172437088329674
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9071266110689917
+F1-Score2: 0.603960396039604
+---------------------------
+
+Done opening data
+--- 3.092137336730957 seconds ---
+Lungime dictionar:86040
+--- 13.913137912750244 seconds ---
+Done features
+--- 17.560137033462524 seconds ---
+Done normalization - METHOD: l1
+--- 181.39921951293945 seconds ---
+C:[65]
+Done fitting
+--- 247.40822052955627 seconds ---
+Done predict validation
+--- 258.76022815704346 seconds ---
+Done predict test
+--- 265.22041368484497 seconds ---
+Accuracy1: 0.9172437088329674
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9071266110689917
+F1-Score2: 0.603960396039604
+---------------------------
+
+Done opening data
+--- 3.102999687194824 seconds ---
+Lungime dictionar:82322
+--- 13.748999834060669 seconds ---
+Done features
+--- 17.273000240325928 seconds ---
+Done opening data
+--- 2.960998296737671 seconds ---
+Lungime dictionar:30239
+--- 12.591249465942383 seconds ---
+Done features
+--- 13.718249559402466 seconds ---
+Done normalization - METHOD: l1
+--- 17.588693141937256 seconds ---
+C:[1, 2, 3, 4, 5, 10, 20]
+Done fitting
+--- 18.940693378448486 seconds ---
+Done predict validation
+--- 133.59633088111877 seconds ---
+Accuracy1: 0.5912852558689411
+Accuracy2: 0.5162790697674419
+F1-Score1: 0.572251557096731
+F1-Score2: 0.5116197798357505
+---------------------------
+
+Done fitting
+--- 134.88933181762695 seconds ---
+Done predict validation
+--- 252.49385523796082 seconds ---
+Accuracy1: 0.557338287451444
+Accuracy2: 0.5255813953488372
+F1-Score1: 0.5570540095041803
+F1-Score2: 0.519078947368421
+---------------------------
+
+Done fitting
+--- 253.78385663032532 seconds ---
+Done predict validation
+--- 370.63765954971313 seconds ---
+Accuracy1: 0.5765917919270394
+Accuracy2: 0.4697674418604651
+F1-Score1: 0.5346281151521758
+F1-Score2: 0.45697447713576755
+---------------------------
+
+Done fitting
+--- 371.92265915870667 seconds ---
+Done predict validation
+--- 488.7973415851593 seconds ---
+Accuracy1: 0.5591960817429489
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.5502516572851047
+F1-Score2: 0.47277619843319374
+---------------------------
+
+Done fitting
+--- 490.0703408718109 seconds ---
+Done predict validation
+--- 607.1271090507507 seconds ---
+Accuracy1: 0.5710184090525249
+Accuracy2: 0.4790697674418605
+F1-Score1: 0.5006280939837919
+F1-Score2: 0.4594109195402299
+---------------------------
+
+Done fitting
+--- 608.3981065750122 seconds ---
+Done predict validation
+--- 726.0021088123322 seconds ---
+Accuracy1: 0.5691606147610201
+Accuracy2: 0.5069767441860465
+F1-Score1: 0.49568788861647395
+F1-Score2: 0.4935555555555556
+---------------------------
+
+Done fitting
+--- 727.2801070213318 seconds ---
+Done predict validation
+--- 846.1440951824188 seconds ---
+Accuracy1: 0.5586894105725384
+Accuracy2: 0.49767441860465117
+F1-Score1: 0.4073596834955957
+F1-Score2: 0.4677241885200807
+---------------------------
+
+Done opening data
+--- 8.862999200820923 seconds ---
+Lungime dictionar:30239
+--- 21.827001333236694 seconds ---
+Done features
+--- 23.128000736236572 seconds ---
+Done normalization - METHOD: l1
+--- 27.22299861907959 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done fitting
+--- 27.469999074935913 seconds ---
+Done predict validation
+--- 27.739007234573364 seconds ---
+Accuracy1: 0.7236953217361932
+Accuracy2: 0.48372093023255813
+F1-Score1: 0.7007667138680684
+F1-Score2: 0.4815225184123053
+---------------------------
+
+Done fitting
+--- 28.01499891281128 seconds ---
+Done predict validation
+--- 28.26300072669983 seconds ---
+Accuracy1: 0.7936159432528289
+Accuracy2: 0.5209302325581395
+F1-Score1: 0.7866350350326735
+F1-Score2: 0.5207643532645156
+---------------------------
+
+Done fitting
+--- 28.6589994430542 seconds ---
+Done predict validation
+--- 28.893004655838013 seconds ---
+Accuracy1: 0.8175983786522547
+Accuracy2: 0.5348837209302325
+F1-Score1: 0.8126211796542657
+F1-Score2: 0.5348736587054344
+---------------------------
+
+Done fitting
+--- 29.29499864578247 seconds ---
+Done predict validation
+--- 29.528003931045532 seconds ---
+Accuracy1: 0.8299273771322412
+Accuracy2: 0.5441860465116279
+F1-Score1: 0.8256633440801691
+F1-Score2: 0.5437023562023562
+---------------------------
+
+Done fitting
+--- 30.002999305725098 seconds ---
+Done predict validation
+--- 30.245003700256348 seconds ---
+Accuracy1: 0.8395541293700388
+Accuracy2: 0.5674418604651162
+F1-Score1: 0.8357852971620644
+F1-Score2: 0.5668421394683825
+---------------------------
+
+Done fitting
+--- 30.71199893951416 seconds ---
+Done predict validation
+--- 30.951003551483154 seconds ---
+Accuracy1: 0.8459719641952372
+Accuracy2: 0.5674418604651162
+F1-Score1: 0.8428770286501737
+F1-Score2: 0.5674044265593561
+---------------------------
+
+Done fitting
+--- 31.577999114990234 seconds ---
+Done predict validation
+--- 31.810003757476807 seconds ---
+Accuracy1: 0.8534031413612565
+Accuracy2: 0.5720930232558139
+F1-Score1: 0.8508745988544502
+F1-Score2: 0.5720837660089997
+---------------------------
+
+Done opening data
+--- 4.297000408172607 seconds ---
+Lungime dictionar:45224
+--- 14.178999423980713 seconds ---
+Done features
+--- 15.911999702453613 seconds ---
+Done normalization - METHOD: l1
+--- 29.233999490737915 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done fitting
+--- 30.120999097824097 seconds ---
+Done predict validation
+--- 30.484999418258667 seconds ---
+Accuracy1: 0.7726735348758655
+Accuracy2: 0.5116279069767442
+F1-Score1: 0.760613180343626
+F1-Score2: 0.5114588067259624
+---------------------------
+
+Done fitting
+--- 31.533999919891357 seconds ---
+Done predict validation
+--- 31.892999410629272 seconds ---
+Accuracy1: 0.8346563080560716
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8294136832635208
+F1-Score2: 0.5806605409153953
+---------------------------
+
+Done fitting
+--- 33.13399934768677 seconds ---
+Done predict validation
+--- 33.49299931526184 seconds ---
+Accuracy1: 0.8557676068231718
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.8520302720646504
+F1-Score2: 0.5944715447154472
+---------------------------
+
+Done fitting
+--- 34.948999643325806 seconds ---
+Done predict validation
+--- 35.29300045967102 seconds ---
+Accuracy1: 0.8652254686708326
+Accuracy2: 0.6
+F1-Score1: 0.862045183012925
+F1-Score2: 0.598532221643217
+---------------------------
+
+Done fitting
+--- 36.98500037193298 seconds ---
+Done predict validation
+--- 37.327998638153076 seconds ---
+Accuracy1: 0.8719810842763047
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.8691760687579446
+F1-Score2: 0.6034157244851457
+---------------------------
+
+Done fitting
+--- 39.37899971008301 seconds ---
+Done predict validation
+--- 39.72299885749817 seconds ---
+Accuracy1: 0.879412261442324
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.8770717779012218
+F1-Score2: 0.5886956521739131
+---------------------------
+
+Done fitting
+--- 42.47399854660034 seconds ---
+Done predict validation
+--- 42.81800103187561 seconds ---
+Accuracy1: 0.8849856443168383
+Accuracy2: 0.6
+F1-Score1: 0.8830692852157268
+F1-Score2: 0.5980434782608696
+---------------------------
+
+Done opening data
+--- 2.9359984397888184 seconds ---
+Lungime dictionar:45115
+--- 12.474999189376831 seconds ---
+Done features
+--- 14.155998229980469 seconds ---
+Done normalization - METHOD: l1
+--- 22.710997819900513 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done fitting
+--- 23.571999311447144 seconds ---
+Done predict validation
+--- 23.918999671936035 seconds ---
+Accuracy1: 0.773180206046276
+Accuracy2: 0.5023255813953489
+F1-Score1: 0.7612797948710374
+F1-Score2: 0.5019376907921799
+---------------------------
+
+Done fitting
+--- 24.955999612808228 seconds ---
+Done predict validation
+--- 25.290998697280884 seconds ---
+Accuracy1: 0.8336429657152508
+Accuracy2: 0.5348837209302325
+F1-Score1: 0.8283050920556678
+F1-Score2: 0.5346320346320346
+---------------------------
+
+Done fitting
+--- 26.52999782562256 seconds ---
+Done predict validation
+--- 26.87199902534485 seconds ---
+Accuracy1: 0.8537409221415302
+Accuracy2: 0.5674418604651162
+F1-Score1: 0.8498344296773617
+F1-Score2: 0.5668421394683825
+---------------------------
+
+Done fitting
+--- 28.280998945236206 seconds ---
+Done predict validation
+--- 28.62999939918518 seconds ---
+Accuracy1: 0.8653943590609694
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.862239718234411
+F1-Score2: 0.5891957616814313
+---------------------------
+
+Done fitting
+--- 30.299999237060547 seconds ---
+Done predict validation
+--- 30.635998249053955 seconds ---
+Accuracy1: 0.8735010977875359
+Accuracy2: 0.6
+F1-Score1: 0.8707359169949764
+F1-Score2: 0.5980434782608696
+---------------------------
+
+Done fitting
+--- 32.703999519348145 seconds ---
+Done predict validation
+--- 33.04099988937378 seconds ---
+Accuracy1: 0.8809322749535552
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.8786385602014442
+F1-Score2: 0.5881226053639848
+---------------------------
+
+Done fitting
+--- 35.80000042915344 seconds ---
+Done predict validation
+--- 36.1349983215332 seconds ---
+Accuracy1: 0.888701232899848
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.8868666247701309
+F1-Score2: 0.5874760160474447
+---------------------------
+
+Done opening data
+--- 2.917999267578125 seconds ---
+Done opening data
+--- 2.934999942779541 seconds ---
+Lungime dictionar:45224
+--- 12.672999143600464 seconds ---
+Done features
+--- 14.379000425338745 seconds ---
+Done normalization - METHOD: l1
+--- 23.078999280929565 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done opening data
+--- 2.9668407440185547 seconds ---
+Lungime dictionar:45224
+--- 12.58176589012146 seconds ---
+Done features
+--- 14.283284425735474 seconds ---
+Done normalization - METHOD: l1
+--- 24.3719162940979 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done opening data
+--- 4.073378086090088 seconds ---
+Lungime dictionar:45224
+--- 27.427924156188965 seconds ---
+Done features
+--- 29.2319233417511 seconds ---
+Done normalization - METHOD: l2
+--- 37.8267343044281 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done fitting
+--- 37.829734325408936 seconds ---
+Done opening data
+--- 3.1093227863311768 seconds ---
+Lungime dictionar:82322
+--- 13.333245754241943 seconds ---
+Done features
+--- 17.567837238311768 seconds ---
+Done normalization - METHOD: l2
+--- 236.95678734779358 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50]
+Done fitting
+--- 301.63756227493286 seconds ---
+Done predict validation
+--- 308.10776114463806 seconds ---
+Accuracy1: 0.918425941563925
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.9173996287573787
+F1-Score2: 0.5473048848961257
+---------------------------
+
+Done fitting
+--- 391.48872351646423 seconds ---
+Done predict validation
+--- 427.21244382858276 seconds ---
+Accuracy1: 0.9157236953217361
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.9148785076960648
+F1-Score2: 0.562037037037037
+---------------------------
+
+Done fitting
+--- 512.2871708869934 seconds ---
+Done predict validation
+--- 517.5647969245911 seconds ---
+Accuracy1: 0.9142036818105049
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9134209018023289
+F1-Score2: 0.5702074860412214
+---------------------------
+
+Done fitting
+--- 595.3990526199341 seconds ---
+Done predict validation
+--- 613.3836753368378 seconds ---
+Accuracy1: 0.9125147779091369
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9117505461141304
+F1-Score2: 0.5702074860412214
+---------------------------
+
+Done fitting
+--- 712.4010767936707 seconds ---
+Done predict validation
+--- 717.892439365387 seconds ---
+Accuracy1: 0.911670325958453
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9109015399786757
+F1-Score2: 0.5702074860412214
+---------------------------
+
+Done fitting
+--- 803.3097026348114 seconds ---
+Done predict validation
+--- 816.2398841381073 seconds ---
+Accuracy1: 0.9094747508866745
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9087126455031934
+F1-Score2: 0.5702074860412214
+---------------------------
+
+Done fitting
+--- 896.8884043693542 seconds ---
+Done predict validation
+--- 902.228747844696 seconds ---
+Accuracy1: 0.908292518155717
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.9075233353719734
+F1-Score2: 0.5662937832385843
+---------------------------
+
+Done opening data
+--- 3.1671299934387207 seconds ---
+Lungime dictionar:82322
+--- 13.263194561004639 seconds ---
+Done features
+--- 17.348195791244507 seconds ---
+Done normalization - METHOD: l2
+--- 211.82297110557556 seconds ---
+C:[15]
+Done fitting
+--- 299.8326416015625 seconds ---
+Done predict validation
+--- 327.1703715324402 seconds ---
+Done opening data
+--- 2.941021680831909 seconds ---
+Lungime dictionar:85492
+--- 12.930366039276123 seconds ---
+Done features
+--- 17.095948219299316 seconds ---
+Done normalization - METHOD: l2
+--- 196.25972175598145 seconds ---
+C:[15]
+Done fitting
+--- 292.4149067401886 seconds ---
+Done predict validation
+--- 294.705055475235 seconds ---
+Done predict test
+--- 296.68446707725525 seconds ---
+Accuracy1: 0.9147103529809154
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.9139515967389663
+F1-Score2: 0.562037037037037
+---------------------------
+
+Done opening data
+--- 3.0752909183502197 seconds ---
+Lungime dictionar:86040
+--- 13.009589433670044 seconds ---
+Done features
+--- 17.164589881896973 seconds ---
+Done normalization - METHOD: l2
+--- 220.5105435848236 seconds ---
+C:[15]
+Done fitting
+--- 306.9763662815094 seconds ---
+Done predict validation
+--- 309.2390978336334 seconds ---
+Done predict test
+--- 311.3400981426239 seconds ---
+Accuracy1: 0.9138659010302314
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9130856631682684
+F1-Score2: 0.5559191440971014
+---------------------------
+
+Done opening data
+--- 3.0640950202941895 seconds ---
+Lungime dictionar:82322
+--- 13.120952606201172 seconds ---
+Done features
+--- 17.35195231437683 seconds ---
+Done normalization - METHOD: l2
+--- 172.70808029174805 seconds ---
+C:[15]
+Done fitting
+--- 262.4907388687134 seconds ---
+Done predict validation
+--- 268.71270632743835 seconds ---
+Done predict test
+--- 274.58725214004517 seconds ---
+Accuracy1: 0.9125147779091369
+Accuracy2: 0.5953488372093023
+F1-Score1: 0.9117505461141304
+F1-Score2: 0.5702074860412214
+---------------------------
+
+Done opening data
+--- 3.0833282470703125 seconds ---
+Lungime dictionar:82322
+--- 13.53189492225647 seconds ---
+Done features
+--- 17.611192226409912 seconds ---
+Done normalization - METHOD: min_max
+--- 281.2617356777191 seconds ---
+C:[15]
+Done fitting
+--- 389.275105714798 seconds ---
+Done predict validation
+--- 395.0642845630646 seconds ---
+Done predict test
+--- 419.70742082595825 seconds ---
+Accuracy1: 0.8819456172943759
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8808569088187148
+F1-Score2: 0.3293305728088337
+---------------------------
+
+Done opening data
+--- 2.9885942935943604 seconds ---
+Lungime dictionar:82322
+--- 13.047112226486206 seconds ---
+Done features
+--- 17.196112632751465 seconds ---
+Done normalization - METHOD: l1
+--- 217.7547869682312 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50, 70]
+Done opening data
+--- 2.975999593734741 seconds ---
+Lungime dictionar:82322
+--- 12.996097564697266 seconds ---
+Done features
+--- 17.052098035812378 seconds ---
+Done normalization - METHOD: l1
+--- 210.42664289474487 seconds ---
+C:[65]
+Done fitting
+--- 1508.6516637802124 seconds ---
+Done predict validation
+--- 1511.4166631698608 seconds ---
+Done predict test
+--- 1513.330662727356 seconds ---
+Accuracy1: 0.7885492315487249
+Accuracy2: 0.5209302325581395
+F1-Score1: 0.7869624842515701
+F1-Score2: 0.4886744094760904
+---------------------------
+
+Done opening data
+--- 3.1521191596984863 seconds ---
+Lungime dictionar:82322
+--- 13.090219020843506 seconds ---
+Done features
+--- 17.248218536376953 seconds ---
+Done normalization - METHOD: l2
+--- 191.94607639312744 seconds ---
+C:[-10]
+Done fitting
+--- 1462.1134164333344 seconds ---
+Done predict validation
+--- 1464.7994170188904 seconds ---
+Done predict test
+--- 1466.651512145996 seconds ---
+Accuracy1: 0.7968248606654281
+Accuracy2: 0.5255813953488372
+F1-Score1: 0.7953773483357783
+F1-Score2: 0.4637617370892019
+---------------------------
+
+Done opening data
+--- 2.9989988803863525 seconds ---
+Lungime dictionar:82322
+--- 13.0749990940094 seconds ---
+Done features
+--- 17.188999891281128 seconds ---
+Done normalization - METHOD: min_max
+--- 249.9001932144165 seconds ---
+C:[-10]
+Done fitting
+--- 1626.367900133133 seconds ---
+Done predict validation
+--- 1629.2019002437592 seconds ---
+Done predict test
+--- 1631.2909004688263 seconds ---
+Accuracy1: 0.805438270562405
+Accuracy2: 0.5441860465116279
+F1-Score1: 0.8038487897562534
+F1-Score2: 0.4730392156862745
+---------------------------
+
+Done opening data
+--- 3.0672574043273926 seconds ---
+Lungime dictionar:82322
+--- 12.56878662109375 seconds ---
+Done features
+--- 16.647337436676025 seconds ---
+Done normalization - METHOD: min_max
+--- 254.15074706077576 seconds ---
+C:[-10]
+Done fitting
+--- 7466.122658967972 seconds ---
+Done predict validation
+--- 7469.6853992938995 seconds ---
+Done predict test
+--- 7471.451237201691 seconds ---
+Accuracy1: 0.893767944603952
+Accuracy2: 0.5162790697674419
+F1-Score1: 0.8929549722443257
+F1-Score2: 0.42666666666666664
+---------------------------
+
+Done opening data
+--- 3.2348482608795166 seconds ---
+Done opening data
+--- 3.1722447872161865 seconds ---
+Done opening data
+--- 2.9378068447113037 seconds ---
+Done opening data
+--- 2.969179391860962 seconds ---
+Lungime dictionar:78734
+--- 10.297950506210327 seconds ---
+Done features
+--- 14.0014169216156 seconds ---
+Done normalization - METHOD: min_max
+--- 132.47867703437805 seconds ---
+C:[-10]
+Done opening data
+--- 2.9847981929779053 seconds ---
+Lungime dictionar:77716
+--- 11.189065933227539 seconds ---
+Done features
+--- 14.892586469650269 seconds ---
+Done normalization - METHOD: l1
+--- 216.62473917007446 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50, 70]
+Done fitting
+--- 273.76275086402893 seconds ---
+Done predict validation
+--- 283.6845211982727 seconds ---
+Accuracy1: 0.8400608005404493
+Accuracy2: 0.5767441860465117
+F1-Score1: 0.8357613163987134
+F1-Score2: 0.576157362275514
+---------------------------
+
+Done fitting
+--- 360.83462357521057 seconds ---
+Done predict validation
+--- 380.290118932724 seconds ---
+Accuracy1: 0.8785678094916399
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8761695748876539
+F1-Score2: 0.5765493697478992
+---------------------------
+
+Done fitting
+--- 466.4028515815735 seconds ---
+Done predict validation
+--- 472.8252055644989 seconds ---
+Accuracy1: 0.8947812869447729
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.892961653672306
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 539.2134275436401 seconds ---
+Done predict validation
+--- 553.2929074764252 seconds ---
+Accuracy1: 0.900523560209424
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.8989795818757418
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 633.2642757892609 seconds ---
+Done predict validation
+--- 639.3898918628693 seconds ---
+Accuracy1: 0.9042391487924337
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9028421224535723
+F1-Score2: 0.6098686080321811
+---------------------------
+
+Done fitting
+--- 674.770964384079 seconds ---
+Done predict validation
+--- 678.5213394165039 seconds ---
+Accuracy1: 0.9081236277655801
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9068698702190279
+F1-Score2: 0.6249781964067678
+---------------------------
+
+Done fitting
+--- 749.2684147357941 seconds ---
+Done predict validation
+--- 768.0648567676544 seconds ---
+Accuracy1: 0.9136970106400946
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.91265732655811
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 824.5330760478973 seconds ---
+Done predict validation
+--- 831.6742951869965 seconds ---
+Accuracy1: 0.913359229859821
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9123543391912895
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done opening data
+--- 2.9535651206970215 seconds ---
+Lungime dictionar:84691
+--- 11.208959817886353 seconds ---
+Done features
+--- 14.990597009658813 seconds ---
+Done normalization - METHOD: l1
+--- 250.53198552131653 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50, 70]
+Done fitting
+--- 276.8486204147339 seconds ---
+Done predict validation
+--- 283.4745273590088 seconds ---
+Accuracy1: 0.8392163485897652
+Accuracy2: 0.5627906976744186
+F1-Score1: 0.8349771237122938
+F1-Score2: 0.5627055565172234
+---------------------------
+
+Done fitting
+--- 365.3787462711334 seconds ---
+Done predict validation
+--- 372.7074155807495 seconds ---
+Accuracy1: 0.8782300287113664
+Accuracy2: 0.5767441860465117
+F1-Score1: 0.875801250976903
+F1-Score2: 0.5722655823003433
+---------------------------
+
+Done fitting
+--- 458.7325966358185 seconds ---
+Done predict validation
+--- 510.50131130218506 seconds ---
+Accuracy1: 0.8966390812362777
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.8948937106292155
+F1-Score2: 0.6012002182214948
+---------------------------
+
+Done fitting
+--- 576.8664700984955 seconds ---
+Done predict validation
+--- 582.5085396766663 seconds ---
+Accuracy1: 0.9023813545009289
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.9008704120162623
+F1-Score2: 0.6012002182214948
+---------------------------
+
+Done fitting
+--- 701.8889997005463 seconds ---
+Done predict validation
+--- 708.8271071910858 seconds ---
+Accuracy1: 0.9055902719135281
+Accuracy2: 0.6046511627906976
+F1-Score1: 0.9042208176947885
+F1-Score2: 0.6004678515992217
+---------------------------
+
+Done fitting
+--- 814.1670134067535 seconds ---
+Done predict validation
+--- 819.4803104400635 seconds ---
+Accuracy1: 0.9106569836176321
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9094699527497636
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 929.1407835483551 seconds ---
+Done predict validation
+--- 937.4226930141449 seconds ---
+Accuracy1: 0.9140347914203681
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.9129730490658169
+F1-Score2: 0.615602651316937
+---------------------------
+
+Done fitting
+--- 1024.180669784546 seconds ---
+Done predict validation
+--- 1037.8073480129242 seconds ---
+Accuracy1: 0.9148792433710522
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.913882507429773
+F1-Score2: 0.6205965011655519
+---------------------------
+
+Done opening data
+--- 3.0666863918304443 seconds ---
+Lungime dictionar:77691
+--- 11.350813150405884 seconds ---
+Done features
+--- 15.168212652206421 seconds ---
+Done normalization - METHOD: l1
+--- 229.44815111160278 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50, 70]
+Done fitting
+--- 272.1603035926819 seconds ---
+Done predict validation
+--- 277.9578278064728 seconds ---
+Accuracy1: 0.8400608005404493
+Accuracy2: 0.5767441860465117
+F1-Score1: 0.8357613163987134
+F1-Score2: 0.576157362275514
+---------------------------
+
+Done fitting
+--- 343.8030285835266 seconds ---
+Done predict validation
+--- 348.44855189323425 seconds ---
+Accuracy1: 0.8785678094916399
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8761695748876539
+F1-Score2: 0.5765493697478992
+---------------------------
+
+Done fitting
+--- 384.0415229797363 seconds ---
+Done predict validation
+--- 389.29201579093933 seconds ---
+Accuracy1: 0.8947812869447729
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.892961653672306
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 451.35959911346436 seconds ---
+Done predict validation
+--- 458.30778098106384 seconds ---
+Accuracy1: 0.900523560209424
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.8989795818757418
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 512.9470372200012 seconds ---
+Done predict validation
+--- 525.8702518939972 seconds ---
+Accuracy1: 0.9042391487924337
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9028421224535723
+F1-Score2: 0.6098686080321811
+---------------------------
+
+Done fitting
+--- 581.8170850276947 seconds ---
+Done predict validation
+--- 586.6143605709076 seconds ---
+Accuracy1: 0.9081236277655801
+Accuracy2: 0.627906976744186
+F1-Score1: 0.9068698702190279
+F1-Score2: 0.6249781964067678
+---------------------------
+
+Done fitting
+--- 649.5073249340057 seconds ---
+Done predict validation
+--- 678.5793793201447 seconds ---
+Accuracy1: 0.9136970106400946
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.91265732655811
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 754.0563113689423 seconds ---
+Done predict validation
+--- 780.8536491394043 seconds ---
+Accuracy1: 0.913359229859821
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.9123543391912895
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done opening data
+--- 2.8824381828308105 seconds ---
+Done opening data
+--- 2.9847705364227295 seconds ---
+Done opening data
+--- 2.9847211837768555 seconds ---
+Lungime dictionar:77568
+--- 11.235527992248535 seconds ---
+Done opening data
+--- 3.015974998474121 seconds ---
+Lungime dictionar:77568
+--- 11.391742467880249 seconds ---
+Done opening data
+--- 3.008533239364624 seconds ---
+Lungime dictionar:77524
+--- 10.395960092544556 seconds ---
+Done opening data
+--- 2.9736368656158447 seconds ---
+Lungime dictionar:77524
+--- 10.972296953201294 seconds ---
+Done opening data
+--- 3.1001739501953125 seconds ---
+Lungime dictionar:77524
+--- 11.356021404266357 seconds ---
+Done features
+--- 15.151910543441772 seconds ---
+Done normalization - METHOD: l1
+--- 162.7286982536316 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50, 60, 70, 90, 100]
+Done fitting
+--- 225.1257529258728 seconds ---
+Done predict validation
+--- 231.7826690673828 seconds ---
+Accuracy1: 0.8398919101503124
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8355786535811704
+F1-Score2: 0.5809511434511434
+---------------------------
+
+Done fitting
+--- 290.51075744628906 seconds ---
+Done predict validation
+--- 320.7219977378845 seconds ---
+Accuracy1: 0.8782300287113664
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8758251230792746
+F1-Score2: 0.5765493697478992
+---------------------------
+
+Done fitting
+--- 374.2672905921936 seconds ---
+Done predict validation
+--- 402.9830665588379 seconds ---
+Accuracy1: 0.8946123965546361
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.8927946424944433
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 429.71908020973206 seconds ---
+Done predict validation
+--- 444.7526671886444 seconds ---
+Accuracy1: 0.9003546698192872
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.8988123582864962
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 532.2924551963806 seconds ---
+Done predict validation
+--- 536.2198302745819 seconds ---
+Accuracy1: 0.9049147103529809
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9035275395791202
+F1-Score2: 0.6098686080321811
+---------------------------
+
+Done fitting
+--- 633.3103334903717 seconds ---
+Done predict validation
+--- 640.9460718631744 seconds ---
+Accuracy1: 0.9079547373754433
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9067023788407682
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 695.1338810920715 seconds ---
+Done predict validation
+--- 734.5398828983307 seconds ---
+Accuracy1: 0.9136970106400946
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.9126638312145379
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 799.2307226657867 seconds ---
+Done predict validation
+--- 809.5528206825256 seconds ---
+Accuracy1: 0.9138659010302314
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9128508810409952
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 871.2678925991058 seconds ---
+Done predict validation
+--- 880.2332468032837 seconds ---
+Accuracy1: 0.9135281202499578
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.9125347662209666
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 950.5159997940063 seconds ---
+Done predict validation
+--- 981.0899872779846 seconds ---
+Accuracy1: 0.9131903394696842
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.912205851231636
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done fitting
+--- 1081.2156977653503 seconds ---
+Done predict validation
+--- 1086.200476884842 seconds ---
+Accuracy1: 0.9125147779091369
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.9115290188976363
+F1-Score2: 0.6068443051201672
+---------------------------
+
+Done opening data
+--- 24.836426734924316 seconds ---
+Lungime dictionar:84783
+--- 39.70877432823181 seconds ---
+Done features
+--- 44.25607943534851 seconds ---
+Done opening data
+--- 2.984619140625 seconds ---
+Lungime dictionar:77524
+--- 11.127289295196533 seconds ---
+Done features
+--- 14.86924147605896 seconds ---
+Done normalization - METHOD: l1
+--- 222.65961122512817 seconds ---
+C:[1, 5, 10, 15, 20, 30, 50, 60, 70, 90, 100, 1000]
+Done fitting
+--- 291.26120615005493 seconds ---
+Done predict validation
+--- 296.4022915363312 seconds ---
+Accuracy1: 0.8398919101503124
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8355786535811704
+F1-Score2: 0.5809511434511434
+---------------------------
+
+Done fitting
+--- 380.26352429389954 seconds ---
+Done predict validation
+--- 389.45262598991394 seconds ---
+Accuracy1: 0.8782300287113664
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.8758251230792746
+F1-Score2: 0.5765493697478992
+---------------------------
+
+Done fitting
+--- 461.07036232948303 seconds ---
+Done predict validation
+--- 463.10217571258545 seconds ---
+Accuracy1: 0.8946123965546361
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.8927946424944433
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 556.3969178199768 seconds ---
+Done predict validation
+--- 561.5576424598694 seconds ---
+Accuracy1: 0.9003546698192872
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.8988123582864962
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 602.9276876449585 seconds ---
+Done predict validation
+--- 608.6469542980194 seconds ---
+Accuracy1: 0.9049147103529809
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9035275395791202
+F1-Score2: 0.6098686080321811
+---------------------------
+
+Done fitting
+--- 661.7841494083405 seconds ---
+Done predict validation
+--- 666.7103497982025 seconds ---
+Accuracy1: 0.9079547373754433
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9067023788407682
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 726.5280992984772 seconds ---
+Done predict validation
+--- 737.0137190818787 seconds ---
+Accuracy1: 0.9136970106400946
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.9126638312145379
+F1-Score2: 0.60553905294426
+---------------------------
+
+Done fitting
+--- 823.4623551368713 seconds ---
+Done predict validation
+--- 828.9126393795013 seconds ---
+Accuracy1: 0.9138659010302314
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.9128508810409952
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 907.829423904419 seconds ---
+Done predict validation
+--- 914.4081573486328 seconds ---
+Accuracy1: 0.9135281202499578
+Accuracy2: 0.6186046511627907
+F1-Score1: 0.9125347662209666
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 1002.1420812606812 seconds ---
+Done predict validation
+--- 1007.2100102901459 seconds ---
+Accuracy1: 0.9131903394696842
+Accuracy2: 0.6139534883720931
+F1-Score1: 0.912205851231636
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done fitting
+--- 1083.1378045082092 seconds ---
+Done predict validation
+--- 1090.082286119461 seconds ---
+Accuracy1: 0.9125147779091369
+Accuracy2: 0.6093023255813953
+F1-Score1: 0.9115290188976363
+F1-Score2: 0.6068443051201672
+---------------------------
+
+Done fitting
+--- 1180.138240814209 seconds ---
+Done predict validation
+--- 1191.8895795345306 seconds ---
+Accuracy1: 0.9044080391825705
+Accuracy2: 0.6
+F1-Score1: 0.9036152333261394
+F1-Score2: 0.5997835497835498
+---------------------------
+
+Done opening data
+--- 2.969046115875244 seconds ---
+Lungime dictionar:77524
+--- 10.204723596572876 seconds ---
+Done features
+--- 13.939360857009888 seconds ---
+Done normalization - METHOD: l1
+--- 198.7000949382782 seconds ---
+C:[30]
+Done fitting
+--- 283.5111436843872 seconds ---
+Done predict validation
+--- 289.02497148513794 seconds ---
+Done predict test
+--- 292.9888701438904 seconds ---
+Accuracy1: 0.9079547373754433
+Accuracy2: 0.6232558139534884
+F1-Score1: 0.9067023788407682
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done opening data
+--- 3.0002691745758057 seconds ---
+Lungime dictionar:77524
+--- 10.891711473464966 seconds ---
+Done features
+--- 14.610742807388306 seconds ---
+Done normalization - METHOD: l2
+--- 179.9897003173828 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70]
+Done fitting
+--- 241.62185740470886 seconds ---
+Done predict validation
+--- 249.06005477905273 seconds ---
+Accuracy1: 0.9147103529809154
+Accuracy2: 0.5906976744186047
+F1-Score1: 0.9136372930071972
+F1-Score2: 0.562037037037037
+---------------------------
+
+Done fitting
+--- 324.72227454185486 seconds ---
+Done predict validation
+--- 330.1133906841278 seconds ---
+Accuracy1: 0.9131903394696842
+Accuracy2: 0.586046511627907
+F1-Score1: 0.9122987512590114
+F1-Score2: 0.5603271983640081
+---------------------------
+
+Done fitting
+--- 389.8372178077698 seconds ---
+Done predict validation
+--- 396.0919032096863 seconds ---
+Accuracy1: 0.9072791758148961
+Accuracy2: 0.5813953488372093
+F1-Score1: 0.9064301832937083
+F1-Score2: 0.5497486969471332
+---------------------------
+
+Done fitting
+--- 443.5489869117737 seconds ---
+Done predict validation
+--- 453.00348830223083 seconds ---
+Accuracy1: 0.9044080391825705
+Accuracy2: 0.5674418604651162
+F1-Score1: 0.9035972669180268
+F1-Score2: 0.538317670692004
+---------------------------
+
+Done fitting
+--- 506.68965435028076 seconds ---
+Done predict validation
+--- 538.629545211792 seconds ---
+Accuracy1: 0.9044080391825705
+Accuracy2: 0.5720930232558139
+F1-Score1: 0.9036032786470288
+F1-Score2: 0.5421296296296297
+---------------------------
+
+Done fitting
+--- 627.9844834804535 seconds ---
+Done predict validation
+--- 674.3939397335052 seconds ---
+Accuracy1: 0.9023813545009289
+Accuracy2: 0.5720930232558139
+F1-Score1: 0.9015533927184092
+F1-Score2: 0.5397431124348474
+---------------------------
+
+Done fitting
+--- 749.9385514259338 seconds ---
+Done predict validation
+--- 795.6769046783447 seconds ---
+Accuracy1: 0.9017057929403817
+Accuracy2: 0.5720930232558139
+F1-Score1: 0.9008905756109772
+F1-Score2: 0.5421296296296297
+---------------------------
+
+Done opening data
+--- 3.148383140563965 seconds ---
+Lungime dictionar:77524
+--- 11.11771821975708 seconds ---
+Done features
+--- 14.836747169494629 seconds ---
+Done normalization - METHOD: min_max
+--- 190.5911464691162 seconds ---
+C:[0.01, 0.1, 1, 5, 10, 20, 30, 50, 70]
+Done fitting
+--- 258.7212326526642 seconds ---
+Done predict validation
+--- 269.8628873825073 seconds ---
+Accuracy1: 0.9003546698192872
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8982021113782939
+F1-Score2: 0.3217665615141956
+---------------------------
+
+Done fitting
+--- 363.3190381526947 seconds ---
+Done predict validation
+--- 368.2099599838257 seconds ---
+Accuracy1: 0.9055902719135281
+Accuracy2: 0.46511627906976744
+F1-Score1: 0.9044242326675671
+F1-Score2: 0.31746031746031744
+---------------------------
+
+Done fitting
+--- 440.24232745170593 seconds ---
+Done predict validation
+--- 441.5862398147583 seconds ---
+Accuracy1: 0.8919101503124472
+Accuracy2: 0.46511627906976744
+F1-Score1: 0.890916887225591
+F1-Score2: 0.32484093825946864
+---------------------------
+
+Done fitting
+--- 492.42168259620667 seconds ---
+Done predict validation
+--- 520.2256011962891 seconds ---
+Accuracy1: 0.8824522884647864
+Accuracy2: 0.4697674418604651
+F1-Score1: 0.8814027584673094
+F1-Score2: 0.32709202723479025
+---------------------------
+
+Done fitting
+--- 587.950357913971 seconds ---
+Done predict validation
+--- 594.7485828399658 seconds ---
+Accuracy1: 0.8772166863705455
+Accuracy2: 0.46511627906976744
+F1-Score1: 0.8762098042207069
+F1-Score2: 0.32484093825946864
+---------------------------
+
+Done fitting
+--- 686.7196161746979 seconds ---
+Done predict validation
+--- 695.5725317001343 seconds ---
+Accuracy1: 0.8743455497382199
+Accuracy2: 0.4790697674418605
+F1-Score1: 0.8733112282014365
+F1-Score2: 0.3459365493263798
+---------------------------
+
+Done fitting
+--- 788.2058463096619 seconds ---
+Done predict validation
+--- 795.4100334644318 seconds ---
+Accuracy1: 0.8709677419354839
+Accuracy2: 0.4790697674418605
+F1-Score1: 0.8699609047109822
+F1-Score2: 0.3459365493263798
+---------------------------
+
+Done fitting
+--- 868.1453511714935 seconds ---
+Done predict validation
+--- 874.6146457195282 seconds ---
+Accuracy1: 0.8660699206215167
+Accuracy2: 0.4744186046511628
+F1-Score1: 0.8651080070377586
+F1-Score2: 0.3435380583101408
+---------------------------
+
+Done fitting
+--- 950.006991147995 seconds ---
+Done predict validation
+--- 958.0392558574677 seconds ---
+Accuracy1: 0.8626921128187807
+Accuracy2: 0.4790697674418605
+F1-Score1: 0.8617530272819172
+F1-Score2: 0.35268817204301073
+---------------------------
+
+Done opening data
+--- 28.024624824523926 seconds ---
+Done opening data
+--- 46.553775787353516 seconds ---
+Done opening data
+--- 35.820300579071045 seconds ---
+Lungime dictionar:84783
+--- 44.88359045982361 seconds ---
+Done features
+--- 48.69634962081909 seconds ---
+Done opening data
+--- 18.413873434066772 seconds ---
+Lungime dictionar:84783
+--- 27.6711745262146 seconds ---
+Done features
+--- 31.41217279434204 seconds ---
+Done normalization - METHOD: l1
+--- 136.29430508613586 seconds ---
+C:[1, 5, 10, 20]
+Done fitting
+--- 236.75410914421082 seconds ---
+Done predict validation
+--- 236.86348414421082 seconds ---
+Done opening data
+--- 28.453470468521118 seconds ---
+Lungime dictionar:84783
+--- 37.92144727706909 seconds ---
+Done features
+--- 41.668288469314575 seconds ---
+Done normalization - METHOD: l1
+--- 158.82193398475647 seconds ---
+C:[1, 5, 10, 20]
+Done fitting
+--- 263.352974653244 seconds ---
+Done predict validation
+--- 263.5299746990204 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5809511434511434
+---------------------------
+
+Done fitting
+--- 337.822154045105 seconds ---
+Done predict validation
+--- 338.06615591049194 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 453.3195734024048 seconds ---
+Done predict validation
+--- 453.40757274627686 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 590.0638077259064 seconds ---
+Done predict validation
+--- 590.1448073387146 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done opening data
+--- 26.13785743713379 seconds ---
+Lungime dictionar:84783
+--- 35.50059485435486 seconds ---
+Done features
+--- 39.22657060623169 seconds ---
+Done normalization - METHOD: l1
+--- 159.34898138046265 seconds ---
+C:[1, 5, 10, 20, 30, 40, 50, 60, 80]
+Done fitting
+--- 263.78689074516296 seconds ---
+Done predict validation
+--- 263.97789239883423 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5809511434511434
+---------------------------
+
+Done fitting
+--- 368.1614615917206 seconds ---
+Done predict validation
+--- 368.2574608325958 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 475.42953515052795 seconds ---
+Done predict validation
+--- 476.79353427886963 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 595.1820042133331 seconds ---
+Done predict validation
+--- 595.3020043373108 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done fitting
+--- 718.2440037727356 seconds ---
+Done predict validation
+--- 718.3340039253235 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6243229075659619
+---------------------------
+
+Done fitting
+--- 807.4190032482147 seconds ---
+Done predict validation
+--- 807.719003200531 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6255660048763497
+---------------------------
+
+Done fitting
+--- 919.9824583530426 seconds ---
+Done predict validation
+--- 920.0574617385864 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6093023255813953
+F1-Score2: 0.6068443051201672
+---------------------------
+
+Done fitting
+--- 1060.4760868549347 seconds ---
+Done predict validation
+--- 1060.59108710289 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6123096308848769
+---------------------------
+
+Done fitting
+--- 1195.0560874938965 seconds ---
+Done predict validation
+--- 1195.2910869121552 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6317615176151763
+---------------------------
+
+Done opening data
+--- 29.27300190925598 seconds ---
+Lungime dictionar:84783
+--- 38.94200038909912 seconds ---
+Done features
+--- 42.91800093650818 seconds ---
+Done normalization - METHOD: l1
+--- 164.139000415802 seconds ---
+C:[25, 30, 35, 40, 80, 90, 100, 110]
+Done fitting
+--- 276.2940001487732 seconds ---
+Done predict validation
+--- 276.3840010166168 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 377.47199988365173 seconds ---
+Done predict validation
+--- 377.58400106430054 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6243229075659619
+---------------------------
+
+Done fitting
+--- 486.7420003414154 seconds ---
+Done predict validation
+--- 486.85900020599365 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 616.8140001296997 seconds ---
+Done predict validation
+--- 616.9440007209778 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6255660048763497
+---------------------------
+
+Done fitting
+--- 745.4450006484985 seconds ---
+Done predict validation
+--- 745.550000667572 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6317615176151763
+---------------------------
+
+Done fitting
+--- 871.1820001602173 seconds ---
+Done predict validation
+--- 871.257000207901 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6317615176151763
+---------------------------
+
+Done fitting
+--- 1004.8450000286102 seconds ---
+Done predict validation
+--- 1004.9200022220612 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6320486991183034
+---------------------------
+
+Done fitting
+--- 1184.090000629425 seconds ---
+Done predict validation
+--- 1184.1600008010864 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6320486991183034
+---------------------------
+
+Done opening data
+--- 32.124436378479004 seconds ---
+Lungime dictionar:84783
+--- 41.234447717666626 seconds ---
+Done features
+--- 45.002447843551636 seconds ---
+Done normalization - METHOD: l1
+--- 173.11147713661194 seconds ---
+C:[100, 110, 150, 200, 250, 1000]
+Done fitting
+--- 290.2851707935333 seconds ---
+Done predict validation
+--- 290.3671705722809 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6320486991183034
+---------------------------
+
+Done fitting
+--- 411.47509121894836 seconds ---
+Done predict validation
+--- 411.69409108161926 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6320486991183034
+---------------------------
+
+Done fitting
+--- 567.1963832378387 seconds ---
+Done predict validation
+--- 567.2933831214905 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6320486991183034
+---------------------------
+
+Done fitting
+--- 720.9632565975189 seconds ---
+Done predict validation
+--- 721.0712563991547 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6368243243243242
+---------------------------
+
+Done fitting
+--- 893.6102516651154 seconds ---
+Done predict validation
+--- 893.7082517147064 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6415813288878305
+---------------------------
+
+Done fitting
+--- 1059.8921217918396 seconds ---
+Done predict validation
+--- 1059.9771225452423 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6324309117271527
+---------------------------
+
+Done opening data
+--- 24.921414136886597 seconds ---
+Lungime dictionar:84783
+--- 34.187246799468994 seconds ---
+Done features
+--- 37.925557136535645 seconds ---
+Done normalization - METHOD: l1
+--- 149.5363097190857 seconds ---
+C:[250, 300, 350, 1000]
+Done fitting
+--- 311.508184671402 seconds ---
+Done predict validation
+--- 311.60918378829956 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6415813288878305
+---------------------------
+
+Done fitting
+--- 439.3418982028961 seconds ---
+Done predict validation
+--- 439.43889713287354 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6417364582657059
+---------------------------
+
+Done fitting
+--- 610.8851644992828 seconds ---
+Done predict validation
+--- 610.9631645679474 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6417364582657059
+---------------------------
+
+Done fitting
+--- 800.1121680736542 seconds ---
+Done predict validation
+--- 801.6051683425903 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6324309117271527
+---------------------------
+
+Done opening data
+--- 35.48116087913513 seconds ---
+Lungime dictionar:84783
+--- 44.646639823913574 seconds ---
+Done features
+--- 48.45163345336914 seconds ---
+Done normalization - METHOD: l1
+--- 178.13526892662048 seconds ---
+C:[250]
+Done fitting
+--- 339.6425471305847 seconds ---
+Done predict validation
+--- 339.7363033294678 seconds ---
+Done predict test
+--- 345.04130721092224 seconds ---
+Done opening data
+--- 25.423343181610107 seconds ---
+Lungime dictionar:92561
+--- 35.116002798080444 seconds ---
+Done features
+--- 39.04958462715149 seconds ---
+Done normalization - METHOD: l1
+--- 175.62865495681763 seconds ---
+C:[250]
+Done fitting
+--- 342.7657024860382 seconds ---
+Done predict validation
+--- 342.8594572544098 seconds ---
+Done predict test
+--- 344.31344866752625 seconds ---
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6368243243243242
+---------------------------
+
+Done opening data
+--- 26.35631227493286 seconds ---
+Lungime dictionar:91538
+--- 36.00912952423096 seconds ---
+Done features
+--- 40.09776782989502 seconds ---
+Done normalization - METHOD: l1
+--- 169.63935136795044 seconds ---
+C:[250]
+Done fitting
+--- 335.29197692871094 seconds ---
+Done predict validation
+--- 335.386976480484 seconds ---
+Done predict test
+--- 340.09597659111023 seconds ---
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6368243243243242
+---------------------------
+
+Done opening data
+--- 33.60929489135742 seconds ---
+Lungime dictionar:11353
+--- 49.347071409225464 seconds ---
+Done features
+--- 52.2647385597229 seconds ---
+Done normalization - METHOD: l1
+--- 54.238659381866455 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 55.807575941085815 seconds ---
+Done predict validation
+--- 55.825698375701904 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5811688311688312
+---------------------------
+
+Done fitting
+--- 58.6834831237793 seconds ---
+Done predict validation
+--- 58.691001415252686 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done fitting
+--- 62.986072301864624 seconds ---
+Done predict validation
+--- 62.986072301864624 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6243229075659619
+---------------------------
+
+Done fitting
+--- 72.17888689041138 seconds ---
+Done predict validation
+--- 72.18288540840149 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6604651162790698
+F1-Score2: 0.6575013638843425
+---------------------------
+
+Done fitting
+--- 81.33471322059631 seconds ---
+Done predict validation
+--- 81.3387131690979 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6465116279069767
+F1-Score2: 0.6442877046325322
+---------------------------
+
+Done fitting
+--- 94.63802981376648 seconds ---
+Done predict validation
+--- 94.64055132865906 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6398659966499162
+---------------------------
+
+Done fitting
+--- 111.6679573059082 seconds ---
+Done predict validation
+--- 111.66999006271362 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6309935040952444
+---------------------------
+
+Done fitting
+--- 134.2835032939911 seconds ---
+Done predict validation
+--- 134.28750443458557 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6260869565217392
+---------------------------
+
+Done opening data
+--- 26.314131498336792 seconds ---
+Lungime dictionar:11493
+--- 35.283130168914795 seconds ---
+Done features
+--- 39.24813199043274 seconds ---
+Done normalization - METHOD: l1
+--- 41.23213219642639 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 42.92113161087036 seconds ---
+Done predict validation
+--- 42.93513202667236 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5720930232558139
+F1-Score2: 0.5716389466389467
+---------------------------
+
+Done fitting
+--- 46.239131689071655 seconds ---
+Done predict validation
+--- 46.24313139915466 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.586046511627907
+F1-Score2: 0.5842838210693259
+---------------------------
+
+Done fitting
+--- 50.96913123130798 seconds ---
+Done predict validation
+--- 50.97313213348389 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6012002182214948
+---------------------------
+
+Done fitting
+--- 58.98245358467102 seconds ---
+Done predict validation
+--- 58.986454010009766 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.597483455242076
+---------------------------
+
+Done fitting
+--- 69.56645226478577 seconds ---
+Done predict validation
+--- 69.57045364379883 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6093023255813953
+F1-Score2: 0.6068443051201672
+---------------------------
+
+Done fitting
+--- 84.456946849823 seconds ---
+Done predict validation
+--- 84.45994639396667 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.6162051549982585
+---------------------------
+
+Done fitting
+--- 102.68765306472778 seconds ---
+Done predict validation
+--- 102.69165325164795 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6205965011655519
+---------------------------
+
+Done fitting
+--- 135.3829414844513 seconds ---
+Done predict validation
+--- 135.38594126701355 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.6162051549982585
+---------------------------
+
+Done opening data
+--- 24.01100182533264 seconds ---
+Lungime dictionar:10980
+--- 32.884000301361084 seconds ---
+Done features
+--- 35.73500061035156 seconds ---
+Done normalization - METHOD: l1
+--- 37.64500021934509 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 39.20900011062622 seconds ---
+Done predict validation
+--- 39.224000215530396 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.594787807889777
+---------------------------
+
+Done fitting
+--- 42.27199983596802 seconds ---
+Done predict validation
+--- 42.27700448036194 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 47.0629997253418 seconds ---
+Done predict validation
+--- 47.06800079345703 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6286701208981001
+---------------------------
+
+Done fitting
+--- 53.718000411987305 seconds ---
+Done predict validation
+--- 53.7210009098053 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6558139534883721
+F1-Score2: 0.6531048316762602
+---------------------------
+
+Done fitting
+--- 65.61800074577332 seconds ---
+Done predict validation
+--- 65.62200164794922 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6604651162790698
+F1-Score2: 0.6585742565642063
+---------------------------
+
+Done fitting
+--- 81.75600075721741 seconds ---
+Done predict validation
+--- 81.75900053977966 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6511627906976745
+F1-Score2: 0.6492201266070613
+---------------------------
+
+Done fitting
+--- 104.52412724494934 seconds ---
+Done predict validation
+--- 104.5281274318695 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6354347826086957
+---------------------------
+
+Done fitting
+--- 131.57712769508362 seconds ---
+Done predict validation
+--- 131.58012747764587 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6255660048763497
+---------------------------
+
+Done opening data
+--- 25.15404176712036 seconds ---
+Lungime dictionar:9839
+--- 34.38704228401184 seconds ---
+Done features
+--- 37.11004185676575 seconds ---
+Done normalization - METHOD: l1
+--- 38.82304239273071 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 40.26953077316284 seconds ---
+Done predict validation
+--- 40.284531593322754 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.586046511627907
+F1-Score2: 0.5831245506633842
+---------------------------
+
+Done fitting
+--- 42.98853158950806 seconds ---
+Done predict validation
+--- 42.991530895233154 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6098686080321811
+---------------------------
+
+Done fitting
+--- 47.041531562805176 seconds ---
+Done predict validation
+--- 47.04552984237671 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6192693644651406
+---------------------------
+
+Done fitting
+--- 53.63253045082092 seconds ---
+Done predict validation
+--- 53.635531187057495 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6255660048763497
+---------------------------
+
+Done fitting
+--- 62.33353090286255 seconds ---
+Done predict validation
+--- 62.337530851364136 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6269304181849731
+---------------------------
+
+Done fitting
+--- 74.96853113174438 seconds ---
+Done predict validation
+--- 74.9715313911438 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6216515674900607
+---------------------------
+
+Done fitting
+--- 90.64953064918518 seconds ---
+Done predict validation
+--- 90.65253067016602 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6118036067784811
+---------------------------
+
+Done fitting
+--- 111.36753106117249 seconds ---
+Done predict validation
+--- 111.37053036689758 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6216515674900607
+---------------------------
+
+Done opening data
+--- 26.059998989105225 seconds ---
+Lungime dictionar:11196
+--- 35.08500075340271 seconds ---
+Done features
+--- 37.96899914741516 seconds ---
+Done normalization - METHOD: l1
+--- 39.93899893760681 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 41.535999059677124 seconds ---
+Done predict validation
+--- 41.54999923706055 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.586046511627907
+F1-Score2: 0.5857238736495702
+---------------------------
+
+Done fitting
+--- 44.484999656677246 seconds ---
+Done predict validation
+--- 44.4879994392395 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.615602651316937
+---------------------------
+
+Done fitting
+--- 48.79099988937378 seconds ---
+Done predict validation
+--- 48.795000076293945 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6235994397759104
+---------------------------
+
+Done fitting
+--- 55.7209997177124 seconds ---
+Done predict validation
+--- 55.72399926185608 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6651162790697674
+F1-Score2: 0.6618906168093657
+---------------------------
+
+Done fitting
+--- 64.81899881362915 seconds ---
+Done predict validation
+--- 64.82199931144714 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6465116279069767
+F1-Score2: 0.6442877046325322
+---------------------------
+
+Done fitting
+--- 82.03199887275696 seconds ---
+Done predict validation
+--- 82.03599977493286 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6398659966499162
+---------------------------
+
+Done fitting
+--- 98.4489996433258 seconds ---
+Done predict validation
+--- 98.45299935340881 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6398659966499162
+---------------------------
+
+Done fitting
+--- 123.89626574516296 seconds ---
+Done predict validation
+--- 123.90026521682739 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6358780614903596
+---------------------------
+
+Done opening data
+--- 28.94627285003662 seconds ---
+Lungime dictionar:11413
+--- 37.95327401161194 seconds ---
+Done features
+--- 40.91927433013916 seconds ---
+Done normalization - METHOD: l1
+--- 42.9652738571167 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 44.6022744178772 seconds ---
+Done predict validation
+--- 44.61727571487427 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5811688311688312
+---------------------------
+
+Done fitting
+--- 47.596274614334106 seconds ---
+Done predict validation
+--- 47.600274324417114 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done fitting
+--- 52.01693773269653 seconds ---
+Done predict validation
+--- 52.02093768119812 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6192693644651406
+---------------------------
+
+Done fitting
+--- 59.99216890335083 seconds ---
+Done predict validation
+--- 59.995168685913086 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6604651162790698
+F1-Score2: 0.6575013638843425
+---------------------------
+
+Done fitting
+--- 69.29016900062561 seconds ---
+Done predict validation
+--- 69.29416942596436 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6465116279069767
+F1-Score2: 0.6442877046325322
+---------------------------
+
+Done fitting
+--- 82.7437162399292 seconds ---
+Done predict validation
+--- 82.74671626091003 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6398659966499162
+---------------------------
+
+Done fitting
+--- 99.7747163772583 seconds ---
+Done predict validation
+--- 99.77771639823914 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6309935040952444
+---------------------------
+
+Done fitting
+--- 121.78871631622314 seconds ---
+Done predict validation
+--- 121.79271626472473 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6309935040952444
+---------------------------
+
+Done opening data
+--- 25.066540241241455 seconds ---
+Lungime dictionar:11413
+--- 34.325541257858276 seconds ---
+Done features
+--- 37.23754143714905 seconds ---
+Done normalization - METHOD: l1
+--- 39.235541582107544 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 40.85154128074646 seconds ---
+Done predict validation
+--- 40.86554217338562 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5811688311688312
+---------------------------
+
+Done fitting
+--- 43.81054353713989 seconds ---
+Done predict validation
+--- 43.81354093551636 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6112285135400101
+---------------------------
+
+Done fitting
+--- 48.26954197883606 seconds ---
+Done predict validation
+--- 48.27354168891907 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6192693644651406
+---------------------------
+
+Done fitting
+--- 55.3888213634491 seconds ---
+Done predict validation
+--- 55.392820835113525 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6604651162790698
+F1-Score2: 0.6575013638843425
+---------------------------
+
+Done fitting
+--- 67.94782090187073 seconds ---
+Done predict validation
+--- 67.95081949234009 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6465116279069767
+F1-Score2: 0.6442877046325322
+---------------------------
+
+Done fitting
+--- 81.21082043647766 seconds ---
+Done predict validation
+--- 81.21482062339783 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6398659966499162
+---------------------------
+
+Done fitting
+--- 97.92791652679443 seconds ---
+Done predict validation
+--- 97.93091607093811 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6309935040952444
+---------------------------
+
+Done fitting
+--- 129.70048189163208 seconds ---
+Done predict validation
+--- 129.70448231697083 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6309935040952444
+---------------------------
+
+Done opening data
+--- 26.501750230789185 seconds ---
+Lungime dictionar:59350
+--- 36.59544396400452 seconds ---
+Done features
+--- 40.398442029953 seconds ---
+Done normalization - METHOD: l1
+--- 114.27556490898132 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 164.75756740570068 seconds ---
+Done predict validation
+--- 164.83156442642212 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5674418604651162
+F1-Score2: 0.5672920859572811
+---------------------------
+
+Done fitting
+--- 194.50631618499756 seconds ---
+Done predict validation
+--- 194.6063163280487 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.597483455242076
+---------------------------
+
+Done fitting
+--- 220.1538805961609 seconds ---
+Done predict validation
+--- 220.17688488960266 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.5930953468641911
+---------------------------
+
+Done fitting
+--- 232.14443588256836 seconds ---
+Done predict validation
+--- 232.1614375114441 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6012002182214948
+---------------------------
+
+Done fitting
+--- 246.25130891799927 seconds ---
+Done predict validation
+--- 246.26830744743347 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6093023255813953
+F1-Score2: 0.6062271062271062
+---------------------------
+
+Done fitting
+--- 265.6843090057373 seconds ---
+Done predict validation
+--- 265.83530855178833 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.6167391304347826
+---------------------------
+
+Done fitting
+--- 292.74530816078186 seconds ---
+Done predict validation
+--- 292.7783102989197 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6272538141470181
+---------------------------
+
+Done fitting
+--- 355.3333492279053 seconds ---
+Done predict validation
+--- 356.97904443740845 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6275121275121276
+---------------------------
+
+Done opening data
+--- 27.848999500274658 seconds ---
+Lungime dictionar:57180
+--- 38.095999002456665 seconds ---
+Done features
+--- 41.88900017738342 seconds ---
+Done normalization - METHOD: l1
+--- 108.45327830314636 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 143.05027842521667 seconds ---
+Done predict validation
+--- 143.12727808952332 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5720930232558139
+F1-Score2: 0.5718614718614718
+---------------------------
+
+Done fitting
+--- 150.89227843284607 seconds ---
+Done predict validation
+--- 150.9082794189453 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 160.3211441040039 seconds ---
+Done predict validation
+--- 160.337144613266 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.597483455242076
+---------------------------
+
+Done fitting
+--- 172.85617804527283 seconds ---
+Done predict validation
+--- 172.87217688560486 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 187.02817559242249 seconds ---
+Done predict validation
+--- 187.04517602920532 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 205.84217596054077 seconds ---
+Done predict validation
+--- 205.85817646980286 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6299644887910938
+---------------------------
+
+Done fitting
+--- 226.62117552757263 seconds ---
+Done predict validation
+--- 226.63817644119263 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6407413033571321
+---------------------------
+
+Done fitting
+--- 255.30117630958557 seconds ---
+Done predict validation
+--- 255.31917572021484 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6368243243243242
+---------------------------
+
+Done opening data
+--- 27.730987548828125 seconds ---
+Lungime dictionar:57180
+--- 38.042989015579224 seconds ---
+Done features
+--- 41.90898823738098 seconds ---
+Done opening data
+--- 29.810261964797974 seconds ---
+Lungime dictionar:57180
+--- 39.85099983215332 seconds ---
+Done features
+--- 43.76699900627136 seconds ---
+Done normalization - METHOD: l1
+--- 209.46781516075134 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 259.6913540363312 seconds ---
+Done predict validation
+--- 259.7383544445038 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5720930232558139
+F1-Score2: 0.5718614718614718
+---------------------------
+
+Done fitting
+--- 267.4863746166229 seconds ---
+Done predict validation
+--- 267.5043821334839 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 276.4233748912811 seconds ---
+Done predict validation
+--- 276.4393804073334 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.597483455242076
+---------------------------
+
+Done fitting
+--- 286.8103744983673 seconds ---
+Done predict validation
+--- 286.82638001441956 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 298.59837579727173 seconds ---
+Done predict validation
+--- 298.61438393592834 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 318.77737617492676 seconds ---
+Done predict validation
+--- 318.7923848628998 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6299644887910938
+---------------------------
+
+Done fitting
+--- 341.20037603378296 seconds ---
+Done predict validation
+--- 341.2173755168915 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6407413033571321
+---------------------------
+
+Done fitting
+--- 375.16237568855286 seconds ---
+Done predict validation
+--- 375.1793761253357 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6368243243243242
+---------------------------
+
+Done opening data
+--- 34.55900025367737 seconds ---
+Lungime dictionar:35289
+--- 44.72000050544739 seconds ---
+Done features
+--- 48.39900064468384 seconds ---
+Done normalization - METHOD: l1
+--- 95.93399977684021 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 100.04200053215027 seconds ---
+Done predict validation
+--- 100.06400442123413 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5767441860465117
+F1-Score2: 0.576414297776527
+---------------------------
+
+Done fitting
+--- 105.37000012397766 seconds ---
+Done predict validation
+--- 105.38000154495239 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6093023255813953
+F1-Score2: 0.6062271062271062
+---------------------------
+
+Done fitting
+--- 112.06600022315979 seconds ---
+Done predict validation
+--- 112.0760018825531 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.5930953468641911
+---------------------------
+
+Done fitting
+--- 120.88300061225891 seconds ---
+Done predict validation
+--- 120.89300084114075 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 132.00200009346008 seconds ---
+Done predict validation
+--- 132.01199984550476 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 146.01500010490417 seconds ---
+Done predict validation
+--- 146.02499961853027 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.627906976744186
+F1-Score2: 0.6260869565217392
+---------------------------
+
+Done fitting
+--- 167.48400020599365 seconds ---
+Done predict validation
+--- 167.493999004364 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6362571577303489
+---------------------------
+
+Done fitting
+--- 189.62400031089783 seconds ---
+Done predict validation
+--- 189.63300132751465 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6368243243243242
+---------------------------
+
+Done opening data
+--- 28.34499979019165 seconds ---
+Lungime dictionar:24734
+--- 38.19500017166138 seconds ---
+Done features
+--- 41.7160005569458 seconds ---
+Done normalization - METHOD: l1
+--- 54.30200004577637 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 57.13100004196167 seconds ---
+Done predict validation
+--- 57.150004386901855 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5811688311688312
+---------------------------
+
+Done fitting
+--- 61.359999656677246 seconds ---
+Done predict validation
+--- 61.368000507354736 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.597483455242076
+---------------------------
+
+Done fitting
+--- 67.16099953651428 seconds ---
+Done predict validation
+--- 67.16799998283386 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.5980434782608696
+---------------------------
+
+Done fitting
+--- 77.02000069618225 seconds ---
+Done predict validation
+--- 77.02799987792969 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 87.0499997138977 seconds ---
+Done predict validation
+--- 87.05699968338013 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 103.89900016784668 seconds ---
+Done predict validation
+--- 103.90700030326843 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6362571577303489
+---------------------------
+
+Done fitting
+--- 127.3050000667572 seconds ---
+Done predict validation
+--- 127.31200051307678 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6362571577303489
+---------------------------
+
+Done fitting
+--- 147.49999976158142 seconds ---
+Done predict validation
+--- 147.50699996948242 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6465116279069767
+F1-Score2: 0.6461365211365211
+---------------------------
+
+Done opening data
+--- 28.688998460769653 seconds ---
+Lungime dictionar:20062
+--- 38.70599889755249 seconds ---
+Done features
+--- 42.12899899482727 seconds ---
+Done normalization - METHOD: l1
+--- 52.79599857330322 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100]
+Done fitting
+--- 55.261998414993286 seconds ---
+Done predict validation
+--- 55.28000330924988 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5811688311688312
+---------------------------
+
+Done fitting
+--- 59.148998498916626 seconds ---
+Done predict validation
+--- 59.154998779296875 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.5924925382889261
+---------------------------
+
+Done fitting
+--- 64.29499864578247 seconds ---
+Done predict validation
+--- 64.30099892616272 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.5930953468641911
+---------------------------
+
+Done fitting
+--- 73.94599843025208 seconds ---
+Done predict validation
+--- 73.95099902153015 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 83.76499891281128 seconds ---
+Done predict validation
+--- 83.77099919319153 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6299644887910938
+---------------------------
+
+Done fitting
+--- 97.73899912834167 seconds ---
+Done predict validation
+--- 97.74499893188477 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6362571577303489
+---------------------------
+
+Done fitting
+--- 117.84399890899658 seconds ---
+Done predict validation
+--- 117.84999918937683 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6317615176151763
+---------------------------
+
+Done fitting
+--- 137.92699909210205 seconds ---
+Done predict validation
+--- 137.93299961090088 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6413639219254348
+---------------------------
+
+Done opening data
+--- 27.524999856948853 seconds ---
+Lungime dictionar:20062
+--- 37.77803659439087 seconds ---
+Done features
+--- 41.329039096832275 seconds ---
+Done normalization - METHOD: l1
+--- 49.916088819503784 seconds ---
+C:[1, 5, 10, 20, 30, 50, 70, 100, 150, 200, 250]
+Done fitting
+--- 52.43308663368225 seconds ---
+Done predict validation
+--- 52.45108699798584 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5813953488372093
+F1-Score2: 0.5811688311688312
+---------------------------
+
+Done fitting
+--- 56.12108635902405 seconds ---
+Done predict validation
+--- 56.127087116241455 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.5924925382889261
+---------------------------
+
+Done fitting
+--- 61.42608642578125 seconds ---
+Done predict validation
+--- 61.43208646774292 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5953488372093023
+F1-Score2: 0.5930953468641911
+---------------------------
+
+Done fitting
+--- 68.99708890914917 seconds ---
+Done predict validation
+--- 69.0040876865387 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6232558139534884
+F1-Score2: 0.6199672667757774
+---------------------------
+
+Done fitting
+--- 81.2700867652893 seconds ---
+Done predict validation
+--- 81.27608680725098 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6299644887910938
+---------------------------
+
+Done fitting
+--- 95.80008697509766 seconds ---
+Done predict validation
+--- 95.80608654022217 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6362571577303489
+---------------------------
+
+Done fitting
+--- 111.3681230545044 seconds ---
+Done predict validation
+--- 111.37412285804749 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6317615176151763
+---------------------------
+
+Done fitting
+--- 139.47212290763855 seconds ---
+Done predict validation
+--- 139.4781231880188 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6413639219254348
+---------------------------
+
+Done fitting
+--- 175.6776249408722 seconds ---
+Done predict validation
+--- 175.68362498283386 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.641860465116279
+F1-Score2: 0.6415813288878305
+---------------------------
+
+Done fitting
+--- 222.88512444496155 seconds ---
+Done predict validation
+--- 222.89112424850464 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6558139534883721
+F1-Score2: 0.6558065074420214
+---------------------------
+
+Done fitting
+--- 276.8984410762787 seconds ---
+Done predict validation
+--- 276.90544152259827 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6558139534883721
+F1-Score2: 0.6558065074420214
+---------------------------
+
+Done opening data
+--- 26.68302011489868 seconds ---
+Lungime dictionar:20062
+--- 36.94650435447693 seconds ---
+Done features
+--- 40.60050368309021 seconds ---
+Done normalization - METHOD: l1
+--- 52.79204607009888 seconds ---
+C:[200]
+Done fitting
+--- 92.26542210578918 seconds ---
+Done predict validation
+--- 92.28342080116272 seconds ---
+Done predict test
+--- 92.43142008781433 seconds ---
+Accuracy2: 0.6558139534883721
+F1-Score2: 0.6558065074420214
+---------------------------
+
+Done opening data
+--- 23.468998670578003 seconds ---
+Lungime dictionar:413
+--- 32.40599751472473 seconds ---
+Done features
+--- 33.73899841308594 seconds ---
+Done normalization - METHOD: standard
+--- 34.01299834251404 seconds ---
+C:[0.001, 0.01, 0.1, 1, 5, 10, 20, 30, 50, 70, 100, 150, 200, 250]
+Done fitting
+--- 34.041998624801636 seconds ---
+Done predict validation
+--- 34.05199980735779 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.7488372093023256
+F1-Score2: 0.7283829309376755
+---------------------------
+
+Done fitting
+--- 34.0629985332489 seconds ---
+Done predict validation
+--- 34.0629985332489 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.8697674418604651
+F1-Score2: 0.8666253101736973
+---------------------------
+
+Done fitting
+--- 34.09099841117859 seconds ---
+Done predict validation
+--- 34.0919988155365 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9302325581395349
+F1-Score2: 0.9296235679214402
+---------------------------
+
+Done fitting
+--- 34.15799832344055 seconds ---
+Done predict validation
+--- 34.15799832344055 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9720930232558139
+F1-Score2: 0.9720779220779221
+---------------------------
+
+Done fitting
+--- 34.86399817466736 seconds ---
+Done predict validation
+--- 34.86399817466736 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9906976744186047
+F1-Score2: 0.9906732604546243
+---------------------------
+
+Done fitting
+--- 35.45299768447876 seconds ---
+Done predict validation
+--- 35.45299768447876 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9906976744186047
+F1-Score2: 0.9906732604546243
+---------------------------
+
+Done fitting
+--- 36.78099870681763 seconds ---
+Done predict validation
+--- 36.78199863433838 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9906976744186047
+F1-Score2: 0.9906732604546243
+---------------------------
+
+Done fitting
+--- 38.67399978637695 seconds ---
+Done predict validation
+--- 38.67399978637695 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9906976744186047
+F1-Score2: 0.9906732604546243
+---------------------------
+
+Done fitting
+--- 39.545997858047485 seconds ---
+Done predict validation
+--- 39.546998500823975 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9906976744186047
+F1-Score2: 0.9906732604546243
+---------------------------
+
+Done fitting
+--- 40.407997369766235 seconds ---
+Done predict validation
+--- 40.407997369766235 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9813953488372092
+F1-Score2: 0.9813626907073509
+---------------------------
+
+Done fitting
+--- 41.269999504089355 seconds ---
+Done predict validation
+--- 41.269999504089355 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9767441860465116
+F1-Score2: 0.9766937669376694
+---------------------------
+
+Done fitting
+--- 42.123997926712036 seconds ---
+Done predict validation
+--- 42.123997926712036 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.958139534883721
+F1-Score2: 0.9580487804878048
+---------------------------
+
+Done fitting
+--- 43.053998947143555 seconds ---
+Done predict validation
+--- 43.053998947143555 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9488372093023256
+F1-Score2: 0.9486773290510189
+---------------------------
+
+Done fitting
+--- 44.03999900817871 seconds ---
+Done predict validation
+--- 44.03999900817871 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.9488372093023256
+F1-Score2: 0.9486773290510189
+---------------------------
+
+Done opening data
+--- 27.535802125930786 seconds ---
+Lungime dictionar:11196
+--- 36.38080334663391 seconds ---
+Done features
+--- 39.40480327606201 seconds ---
+Done normalization - METHOD: standard
+--- 46.106802463531494 seconds ---
+C:[1]
+Done fitting
+--- 49.62780213356018 seconds ---
+Done predict validation
+--- 49.64080286026001 seconds ---
+Done predict test
+--- 49.72880291938782 seconds ---
+Accuracy2: 1.0
+F1-Score2: 1.0
+---------------------------
+
+Done opening data
+--- 21.058741331100464 seconds ---
+Lungime dictionar:11196
+--- 30.375660181045532 seconds ---
+Done features
+--- 33.298421144485474 seconds ---
+Done normalization - METHOD: l1
+--- 37.35847544670105 seconds ---
+C:[1]
+Done fitting
+--- 37.37547540664673 seconds ---
+Done predict validation
+--- 37.38947606086731 seconds ---
+Done predict test
+--- 37.4824755191803 seconds ---
+Accuracy2: 0.9674418604651163
+F1-Score2: 0.9673032218818569
+---------------------------
+
+Done opening data
+--- 30.571852922439575 seconds ---
+Lungime dictionar:57180
+--- 40.1646842956543 seconds ---
+Done features
+--- 44.01768612861633 seconds ---
+Done normalization - METHOD: l1
+--- 182.38739585876465 seconds ---
+C:[1]
+Done fitting
+--- 238.45439648628235 seconds ---
+Done predict validation
+--- 238.5003969669342 seconds ---
+Done predict test
+--- 253.32739567756653 seconds ---
+Accuracy2: 0.5720930232558139
+F1-Score2: 0.5718614718614718
+---------------------------
+
+Done opening data
+--- 30.368999004364014 seconds ---
+Lungime dictionar:57180
+--- 40.40700006484985 seconds ---
+Done features
+--- 44.24600005149841 seconds ---
+Done normalization - METHOD: l1
+--- 179.5487937927246 seconds ---
+C:[2]
+Done opening data
+--- 25.493841648101807 seconds ---
+Lungime dictionar:57180
+--- 35.71184301376343 seconds ---
+Done features
+--- 39.63284230232239 seconds ---
+Done normalization - METHOD: l1
+--- 174.27237248420715 seconds ---
+C:[0.001, 0.01, 0.1]
+Done fitting
+--- 174.28237295150757 seconds ---
+Done opening data
+--- 25.07599925994873 seconds ---
+Lungime dictionar:57180
+--- 35.16300010681152 seconds ---
+Done features
+--- 39.015000104904175 seconds ---
+Done normalization - METHOD: l1
+--- 175.20037627220154 seconds ---
+C:[0.001, 0.01, 0.1]
+Done opening data
+--- 6.082000970840454 seconds ---
+Lungime dictionar:57180
+--- 14.477998495101929 seconds ---
+Done features
+--- 18.107999801635742 seconds ---
+Done normalization - METHOD: l1
+--- 58.7549991607666 seconds ---
+C:[1, 5, 10, 20, 30, 40, 50, 80]
+Done fitting
+--- 64.61199951171875 seconds ---
+Done predict validation
+--- 64.64100217819214 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.5720930232558139
+F1-Score2: 0.5718614718614718
+---------------------------
+
+Done fitting
+--- 71.6519992351532 seconds ---
+Done predict validation
+--- 71.66799926757812 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6046511627906976
+F1-Score2: 0.6018605259144681
+---------------------------
+
+Done fitting
+--- 81.48899912834167 seconds ---
+Done predict validation
+--- 81.50499963760376 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6
+F1-Score2: 0.597483455242076
+---------------------------
+
+Done fitting
+--- 92.79299902915955 seconds ---
+Done predict validation
+--- 92.80899906158447 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6139534883720931
+F1-Score2: 0.6105837424986361
+---------------------------
+
+Done fitting
+--- 109.9569993019104 seconds ---
+Done predict validation
+--- 109.97299909591675 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6186046511627907
+F1-Score2: 0.614930980255111
+---------------------------
+
+Done fitting
+--- 125.57999920845032 seconds ---
+Done predict validation
+--- 125.59700107574463 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6299644887910938
+---------------------------
+
+Done fitting
+--- 143.41399955749512 seconds ---
+Done predict validation
+--- 143.42999958992004 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6325581395348837
+F1-Score2: 0.6299644887910938
+---------------------------
+
+Done fitting
+--- 172.28499841690063 seconds ---
+Done predict validation
+--- 172.30099821090698 seconds ---
+Accuracy1: 0.0
+Accuracy2: 0.6372093023255814
+F1-Score2: 0.6365724687933426
+---------------------------
+
+Done opening data
+--- 8.803000926971436 seconds ---
+Lungime dictionar:57203
+--- 16.93600034713745 seconds ---
+Done features
+--- 20.560998916625977 seconds ---
+Done normalization - METHOD: l1
+--- 59.84299921989441 seconds ---
+C:[40]
+Done fitting
+--- 75.22899913787842 seconds ---
+Done predict validation
+--- 75.25600290298462 seconds ---
+Done predict test
+--- 75.67199993133545 seconds ---
+Accuracy2: 0.9906976744186047
+F1-Score2: 0.9906732604546243
+---------------------------
+
+Done opening data
+--- 8.974000692367554 seconds ---
+Lungime dictionar:57203
+--- 17.16499900817871 seconds ---
+Done features
+--- 20.83999991416931 seconds ---
+Done normalization - METHOD: l1
+--- 78.37399935722351 seconds ---
+C:[10]
+Done fitting
+--- 87.3589997291565 seconds ---
+Done predict validation
+--- 87.38700318336487 seconds ---
+Done predict test
+--- 87.75900077819824 seconds ---
+Accuracy2: 0.9348837209302325
+F1-Score2: 0.9348823122187608
+---------------------------
+
+Done opening data
+--- 6.760000944137573 seconds ---
+Lungime dictionar:57180
+--- 15.911001920700073 seconds ---
+Done features
+--- 19.773000478744507 seconds ---
+Done normalization - METHOD: l1
+--- 70.16999983787537 seconds ---
+C:[10]

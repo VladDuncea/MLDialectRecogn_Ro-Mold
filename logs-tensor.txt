@@ -1,0 +1,312 @@
+Done opening data
+--- 3.0013744831085205 seconds ---
+Lungime dictionar:80783
+--- 11.940181255340576 seconds ---
+Done features
+--- 15.944658994674683 seconds ---
+Done normalization - METHOD: l1
+--- 16.08391547203064 seconds ---
+Done opening data
+--- 2.8532094955444336 seconds ---
+Lungime dictionar:14961
+--- 11.77461838722229 seconds ---
+Done features
+--- 15.069645643234253 seconds ---
+Done normalization - METHOD: l1
+--- 15.069645643234253 seconds ---
+Done opening data
+--- 2.819998264312744 seconds ---
+Lungime dictionar:14961
+--- 11.18201231956482 seconds ---
+Done features
+--- 14.623011827468872 seconds ---
+Done normalization - METHOD: l1
+--- 14.623011827468872 seconds ---
+Done opening data
+--- 2.819744825363159 seconds ---
+Lungime dictionar:14961
+--- 11.673564434051514 seconds ---
+Done features
+--- 14.929612159729004 seconds ---
+Done normalization - METHOD: l1
+--- 14.929612159729004 seconds ---
+Done opening data
+--- 3.736992359161377 seconds ---
+Lungime dictionar:51747
+--- 17.645236253738403 seconds ---
+Done features
+--- 21.27148413658142 seconds ---
+Done normalization - METHOD: l1
+--- 94.59671020507812 seconds ---
+Done opening data
+--- 2.9699997901916504 seconds ---
+Lungime dictionar:51747
+--- 10.966196298599243 seconds ---
+Done features
+--- 14.708369731903076 seconds ---
+Done normalization - METHOD: l1
+--- 92.23626112937927 seconds ---
+Done opening data
+--- 2.9400691986083984 seconds ---
+Lungime dictionar:51747
+--- 11.509909629821777 seconds ---
+Done features
+--- 15.255012035369873 seconds ---
+Done normalization - METHOD: l1
+--- 92.44478797912598 seconds ---
+Done opening data
+--- 3.001195192337036 seconds ---
+Lungime dictionar:51747
+--- 11.568449020385742 seconds ---
+Done features
+--- 15.330649852752686 seconds ---
+Done normalization - METHOD: l1
+--- 96.843337059021 seconds ---
+Done opening data
+--- 3.2247040271759033 seconds ---
+Lungime dictionar:51747
+--- 11.960424184799194 seconds ---
+Done features
+--- 15.757680892944336 seconds ---
+Done normalization - METHOD: l1
+--- 92.20308661460876 seconds ---
+Done opening data
+--- 3.008679151535034 seconds ---
+Lungime dictionar:51747
+--- 11.453893184661865 seconds ---
+Done features
+--- 15.167575359344482 seconds ---
+Done normalization - METHOD: l1
+--- 98.06844449043274 seconds ---
+Done opening data
+--- 2.931276798248291 seconds ---
+Lungime dictionar:31686
+--- 11.296185731887817 seconds ---
+Done features
+--- 14.8438560962677 seconds ---
+Done normalization - METHOD: l1
+--- 34.97073674201965 seconds ---
+Done opening data
+--- 2.9064927101135254 seconds ---
+Lungime dictionar:31686
+--- 11.282283306121826 seconds ---
+Done features
+--- 14.829860210418701 seconds ---
+Done normalization - METHOD: l1
+--- 33.09694314002991 seconds ---
+Done opening data
+--- 3.140956401824951 seconds ---
+Lungime dictionar:31686
+--- 11.630494117736816 seconds ---
+Done features
+--- 15.223376274108887 seconds ---
+Done normalization - METHOD: l1
+--- 48.513657331466675 seconds ---
+Done opening data
+--- 2.9534590244293213 seconds ---
+Lungime dictionar:31686
+--- 11.42317247390747 seconds ---
+Done features
+--- 15.03279733657837 seconds ---
+Done normalization - METHOD: l1
+--- 31.83637809753418 seconds ---
+Done opening data
+--- 2.9377951622009277 seconds ---
+Lungime dictionar:31686
+--- 11.391558170318604 seconds ---
+Done features
+--- 14.969897985458374 seconds ---
+Done normalization - METHOD: l1
+--- 30.646153211593628 seconds ---
+Done opening data
+--- 3.172891616821289 seconds ---
+Lungime dictionar:31686
+--- 11.767136573791504 seconds ---
+Done features
+--- 15.392468929290771 seconds ---
+Done normalization - METHOD: l1
+--- 31.534635066986084 seconds ---
+Done opening data
+--- 3.0316905975341797 seconds ---
+Lungime dictionar:31686
+--- 11.734337091445923 seconds ---
+Done features
+--- 15.336700439453125 seconds ---
+Done normalization - METHOD: l1
+--- 35.65366744995117 seconds ---
+Done opening data
+--- 3.313042163848877 seconds ---
+Lungime dictionar:31686
+--- 11.830003261566162 seconds ---
+Done features
+--- 15.39280390739441 seconds ---
+Done normalization - METHOD: l1
+--- 30.91003727912903 seconds ---
+Done opening data
+--- 2.922273635864258 seconds ---
+Lungime dictionar:31686
+--- 11.376195669174194 seconds ---
+Done features
+--- 14.938910961151123 seconds ---
+Done normalization - METHOD: l1
+--- 32.95643401145935 seconds ---
+Done opening data
+--- 3.086949110031128 seconds ---
+Lungime dictionar:31686
+--- 11.735940217971802 seconds ---
+Done features
+--- 15.433319091796875 seconds ---
+Done normalization - METHOD: l1
+--- 34.704777002334595 seconds ---
+Done opening data
+--- 3.062847852706909 seconds ---
+Lungime dictionar:31686
+--- 11.782456398010254 seconds ---
+Done features
+--- 15.345428705215454 seconds ---
+Done normalization - METHOD: l1
+--- 34.64391279220581 seconds ---
+Done opening data
+--- 2.9220125675201416 seconds ---
+Lungime dictionar:31686
+--- 11.438343524932861 seconds ---
+Done features
+--- 14.98551344871521 seconds ---
+Done normalization - METHOD: l1
+--- 31.64822244644165 seconds ---
+Done opening data
+--- 3.0001821517944336 seconds ---
+Lungime dictionar:31686
+--- 11.454169511795044 seconds ---
+Done features
+--- 15.01687502861023 seconds ---
+Done normalization - METHOD: l1
+--- 31.659657955169678 seconds ---
+Done opening data
+--- 2.953493595123291 seconds ---
+Lungime dictionar:31686
+--- 11.376355648040771 seconds ---
+Done features
+--- 14.923579454421997 seconds ---
+Done normalization - METHOD: standard
+--- 49.89373016357422 seconds ---
+Done opening data
+--- 2.9377291202545166 seconds ---
+Lungime dictionar:31686
+--- 11.469746112823486 seconds ---
+Done features
+--- 15.095012903213501 seconds ---
+Done normalization - METHOD: standard
+--- 41.636879682540894 seconds ---
+Done opening data
+--- 2.9690356254577637 seconds ---
+Lungime dictionar:31686
+--- 11.438474655151367 seconds ---
+Done features
+--- 15.032505750656128 seconds ---
+Done normalization - METHOD: standard
+--- 37.83183789253235 seconds ---
+Done opening data
+--- 2.944326400756836 seconds ---
+Lungime dictionar:31686
+--- 11.523761749267578 seconds ---
+Done features
+--- 15.070894241333008 seconds ---
+Done normalization - METHOD: standard
+--- 40.719451904296875 seconds ---
+Done opening data
+--- 2.923067331314087 seconds ---
+Lungime dictionar:31686
+--- 11.366514444351196 seconds ---
+Done features
+--- 14.963664293289185 seconds ---
+Done normalization - METHOD: standard
+--- 39.41896295547485 seconds ---
+Done opening data
+--- 2.9524903297424316 seconds ---
+Lungime dictionar:31686
+--- 11.451669692993164 seconds ---
+Done features
+--- 15.056957960128784 seconds ---
+Done normalization - METHOD: standard
+--- 44.07633185386658 seconds ---
+Done opening data
+--- 2.953594446182251 seconds ---
+Lungime dictionar:31686
+--- 11.392145872116089 seconds ---
+Done features
+--- 14.923679828643799 seconds ---
+Done normalization - METHOD: standard
+--- 44.86537790298462 seconds ---
+Done opening data
+--- 2.9519991874694824 seconds ---
+Lungime dictionar:31686
+--- 11.734999418258667 seconds ---
+Done features
+--- 15.561999082565308 seconds ---
+Done normalization - METHOD: standard
+--- 45.82899808883667 seconds ---
+Done opening data
+--- 3.926999807357788 seconds ---
+Lungime dictionar:31686
+--- 15.325001001358032 seconds ---
+Done features
+--- 20.025002241134644 seconds ---
+Done normalization - METHOD: standard
+--- 46.051002502441406 seconds ---
+Done opening data
+--- 3.58000111579895 seconds ---
+Lungime dictionar:31686
+--- 16.261999130249023 seconds ---
+Done features
+--- 21.567999839782715 seconds ---
+Done normalization - METHOD: standard
+--- 59.62500023841858 seconds ---
+Done opening data
+--- 2.857999086380005 seconds ---
+Lungime dictionar:31686
+--- 11.435999155044556 seconds ---
+Done features
+--- 15.023999214172363 seconds ---
+Done normalization - METHOD: standard
+--- 31.100998640060425 seconds ---
+Done opening data
+--- 2.848998546600342 seconds ---
+Lungime dictionar:51747
+--- 11.585000991821289 seconds ---
+Done features
+--- 15.349999189376831 seconds ---
+Done normalization - METHOD: standard
+--- 43.464999198913574 seconds ---
+Done opening data
+--- 2.844062566757202 seconds ---
+Lungime dictionar:51747
+--- 11.250926494598389 seconds ---
+Done features
+--- 14.928843021392822 seconds ---
+Done normalization - METHOD: standard
+--- 40.571505546569824 seconds ---
+Done opening data
+--- 2.8595359325408936 seconds ---
+Lungime dictionar:51747
+--- 10.782157182693481 seconds ---
+Done features
+--- 14.470062494277954 seconds ---
+Done normalization - METHOD: standard
+--- 53.88749098777771 seconds ---
+Done opening data
+--- 2.8752126693725586 seconds ---
+Lungime dictionar:51747
+--- 11.51651406288147 seconds ---
+Done features
+--- 15.34492802619934 seconds ---
+Done normalization - METHOD: standard
+--- 42.15108609199524 seconds ---
+Done opening data
+--- 2.8596959114074707 seconds ---
+Lungime dictionar:51747
+--- 11.31349802017212 seconds ---
+Done features
+--- 15.032673835754395 seconds ---
+Done normalization - METHOD: standard
+--- 40.477458238601685 seconds ---

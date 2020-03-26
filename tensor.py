@@ -1,20 +1,12 @@
-import math
-import sys
-import csv
-
-import sklearn
-from sklearn import preprocessing
-from sklearn import svm
-from sklearn import tree
-from sklearn import neural_network
-import numpy as np
 import time
-from svm import SVM
-import cupy as xp
 
-from sklearn.neighbors import KNeighborsClassifier
+import tensorflow as tf
+import matplotlib.pyplot as plt
+import tensorflow_datasets as tfds
+import numpy as np
+from sklearn import preprocessing
 
-MIN_USAGE = 2
+MIN_USAGE = 1
 
 def print_out(file, msg):
     print(msg)
@@ -46,7 +38,7 @@ def normalize_data(train_data, test_data,validation_1,validation_2, type=None):
         scaler.fit(train_data)
         train_data = scaler.transform(train_data)
         test_data = scaler.transform(test_data)
-        # validation_1 = scaler.transform(validation_1)
+        validation_1 = scaler.transform(validation_1)
         validation_2 = scaler.transform(validation_2)
     else:
         print_out(f,"Invalid scaling method - no scaling has been done")
@@ -59,6 +51,7 @@ class BagOfWords:
     def __init__(self):
         self.dictData = dict()
         self.word_list = []
+        self.nr_words = 0
 
     def build_vocabulary(self, data):
         index = 0
@@ -73,9 +66,9 @@ class BagOfWords:
         for sentence in data:
             for word in sentence:
                 if word not in self.dictData and counter_dict[word] >= MIN_USAGE:
-                    self.dictData[word] = index
+                    self.dictData[word] = self.nr_words
                     self.word_list.append(word)
-                    index += 1
+                    self.nr_words += 1
         self.word_list = np.array(self.word_list)
         return self.dictData
 
@@ -118,45 +111,68 @@ def prep_data(data):
     return new_data
 
 
-#logs
-f = open('logs.txt', 'a+')
 
+
+
+def plot_graphs(history, metric):
+  plt.plot(history.history[metric])
+  plt.plot(history.history['val_'+metric], '')
+  plt.xlabel("Epochs")
+  plt.ylabel(metric)
+  plt.legend([metric, 'val_'+metric])
+  plt.show()
+
+
+def pad_to_size(vec, size):
+  zeros = [0] * (size - len(vec))
+  vec.extend(zeros)
+  return vec
+
+
+def sample_predict(sample_pred_text, pad):
+  encoded_sample_pred_text = encoder.encode(sample_pred_text)
+
+  if pad:
+    encoded_sample_pred_text = pad_to_size(encoded_sample_pred_text, 64)
+  encoded_sample_pred_text = tf.cast(encoded_sample_pred_text, tf.float32)
+  predictions = model.predict(tf.expand_dims(encoded_sample_pred_text, 0))
+
+  return (predictions)
+
+
+f = open('logs-tensor.txt', 'a+')
 # timing
 start_time = time.time()
 
 # load data
-
 train_data = np.genfromtxt('data/train_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'), encoding='utf-8')['Text']
 train_labels = np.loadtxt('data/train_labels.txt')[:, 1]
-
 validation_data1 = np.genfromtxt('data/validation_source_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'),
                                  encoding='utf-8')['Text']
 validation_data2 = np.genfromtxt('data/validation_target_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'),
-                                 encoding='utf-8')['Text']
-
+                                 encoding='utf-8')
 validation_labels1 = np.loadtxt('data/validation_source_labels.txt')[:, 1]
 validation_labels2 = np.loadtxt('data/validation_target_labels.txt')[:, 1]
-
-train_data = np.concatenate((train_data, validation_data1))
-train_labels = np.concatenate((train_labels, validation_labels1))
-
-# train_data = np.concatenate((train_data, validation_data2))
-# train_labels = np.concatenate((train_labels, validation_labels2))
-
-validation_data1 = None
-validation_labels1 = None
-
+# train_data = np.concatenate((train_data, validation_data1))
+# train_labels = np.concatenate((train_labels, validation_labels1))
+# validation_data1 = None
+# validation_labels1 = None
 test_data = np.genfromtxt('data/test_samples.txt', delimiter='\t', dtype=None, names=('ID', 'Text'), encoding='utf-8')
+
+train_labels -= 1
+validation_labels1 -= 1
+validation_labels2 -= 1
 
 print_out(f, "Done opening data")
 print_out(f, "--- %s seconds ---" % (time.time() - start_time))
 
 # prepare data
 train_sentences = np.array(prep_data(train_data))
-# validation_sentences1 = np.array(prep_data(validation_data1))
-validation_sentences2 = np.array(prep_data(validation_data2))
+validation_sentences1 = np.array(prep_data(validation_data1))
+validation_sentences2 = np.array(prep_data(validation_data2['Text']))
 test_sentences = np.array(prep_data(test_data['Text']))
 
+test_data = None
 train_data = None
 validation_data1 = None
 validation_data2 = None
@@ -174,7 +190,7 @@ print_out(f, "--- %s seconds ---" % (time.time() - start_time))
 
 # get features
 features_train = bagofwords.get_features(train_sentences)
-# features_validation1 = bagofwords.get_features(validation_sentences1)
+features_validation1 = bagofwords.get_features(validation_sentences1)
 features_validation2 = bagofwords.get_features(validation_sentences2)
 features_test = bagofwords.get_features(test_sentences)
 
@@ -186,15 +202,14 @@ test_sentences = None
 print_out(f,"Done features")
 print_out(f,"--- %s seconds ---" % (time.time() - start_time))
 
-norm_method = 'l1'
-# normalized_train = normlaize_d(features_train)
-# features_train = None
-# normalized_test = normlaize_d(features_test)
-# features_test = None
-# normalized_validation2 = normlaize_d(features_validation2)
-# features_validation2 = None
+norm_method = 'standard'
 normalized_train,normalized_test,normalized_validation1,normalized_validation2 \
-    = normalize_data(features_train,features_test,[],features_validation2, norm_method)
+    = normalize_data(features_train,features_test,features_validation1,features_validation2, norm_method)
+
+# normalized_train = features_train
+# normalized_test = features_test
+# normalized_validation1 = features_validation1
+# normalized_validation2 = features_validation2
 
 features_train = None
 features_test = None
@@ -205,65 +220,38 @@ print_out(f,"Done normalization - METHOD: " + norm_method)
 print_out(f,"--- %s seconds ---" % (time.time() - start_time))
 
 
-# SVM model
-# C_vals = [1, 5, 10,20,30,40,50,80]
-C_vals = [10]
 
-print_out(f, "C:" + str(C_vals))
-accuracy1 = np.zeros(len(C_vals))
-accuracy2 = np.zeros(len(C_vals))
-for i in range(len(C_vals)):
-    C_param = C_vals[i]
-    # svm_model = svm.SVC(C=C_param, kernel='rbf', gamma='scale', verbose=1)  # kernel rbf # nu termina
-    # svm_model = svm.LinearSVC(C=C_param, verbose=0, max_iter=15000)  # cel mai bun pe l1 momentan
-    # svm_model = KNeighborsClassifier(n_neighbors=C_param, algorithm='auto', leaf_size=30, n_jobs=-1)  # pare slab si nu termina ever cu toate datele
-    # svm_model = tree.DecisionTreeClassifier() # slab,dar termina ~30 min
-    svm_model = neural_network.MLPClassifier(max_iter=200, verbose=1, hidden_layer_sizes=(20, 10), learning_rate_init = 0.01)
+# train_examples, test_examples = dataset['train'], dataset['test']
+# encoder = info.features['text'].encoder
+# print('Vocabulary size: {}'.format(encoder.vocab_size))
+#
+# BUFFER_SIZE = 10000
+# BATCH_SIZE = 64
+# train_dataset = (train_examples
+#                  .shuffle(BUFFER_SIZE)
+#                  .padded_batch(BATCH_SIZE, padded_shapes=([None],[])))
+#
+# test_dataset = (test_examples
+#                 .padded_batch(BATCH_SIZE,  padded_shapes=([None],[])))
 
-    # gpu
-    # svm_model = SVM(kernel='linear', kernel_params={}, n_folds=3, use_optimal_lambda=True)
-    # x_train = xp.asarray(normalized_train)
-    # y_train = xp.asarray(train_labels)
-    # svm_model.fit(x_train, y_train)
+model = tf.keras.Sequential([
+    tf.keras.layers.Dense(10, input_dim=bagofwords.nr_words, activation='relu'),
+    tf.keras.layers.Dense(10, activation='relu'),
+    tf.keras.layers.Dense(1, activation='sigmoid')
+])
 
-    svm_model.fit(normalized_train, train_labels)  # train
-    print_out(f, "Done fitting")
-    print_out(f, "--- %s seconds ---" % (time.time() - start_time))
+model.compile(loss='binary_crossentropy',
+              optimizer=tf.keras.optimizers.SGD(learning_rate=0.005, momentum=0.0, nesterov=False),
+              metrics=['accuracy'])
 
-    # words = np.array(bagofwords.word_list)
-    # weights = np.squeeze(svm_model.coef_)
-    # indexes = np.argsort(weights)
-    # print("the most RO words are", words[indexes[-100:]])
-    # print("the most MOLD words are", words[indexes[:100]])
+model.fit(normalized_train, train_labels,
+          validation_data=(normalized_validation2,validation_labels2)
+          ,epochs=10 ,batch_size=1000)
 
-    # predicted_val1_labels = svm_model.predict(normalized_validation1)  # predict
-    predicted_val2_labels = svm_model.predict(normalized_validation2)  # predict
 
-    print_out(f, "Done predict validation")
-    print_out(f, "--- %s seconds ---" % (time.time() - start_time))
+test_loss, test_acc = model.evaluate(normalized_validation1,validation_labels1)
+predictions = model.predict(normalized_test)
+print(predictions)
 
-    if len(C_vals) == 1:
-        predicted_test_labels = svm_model.predict(normalized_test)  # predict
-        # write to file
-        w = csv.writer(open("predictii_" + str(C_param) + "_" + norm_method + ".csv", "w", newline=''))
-        w.writerow(["id", "label"])
-        for i in range(len(predicted_test_labels)):
-            w.writerow([test_data['ID'][i], predicted_test_labels[i].astype(int)])
-        print_out(f, "Done predict test")
-        print_out(f, "--- %s seconds ---" % (time.time() - start_time))
-
-    if len(C_vals) == 1:
-        # print_out(f, "Accuracy1: " + str(sklearn.metrics.accuracy_score(predicted_val1_labels, validation_labels1)))
-        print_out(f, "Accuracy2: " + str(sklearn.metrics.accuracy_score(predicted_val2_labels, validation_labels2)))
-    else:
-        # accuracy1[i] = sklearn.metrics.accuracy_score(predicted_val1_labels, validation_labels1)
-        accuracy2[i] = sklearn.metrics.accuracy_score(predicted_val2_labels, validation_labels2)
-        print_out(f, "Accuracy1: " + str(accuracy1[i]))
-        print_out(f, "Accuracy2: " + str(accuracy2[i]))
-
-    # print_out(f, "F1-Score1: " + str(sklearn.metrics.f1_score(predicted_val1_labels, validation_labels1,average='macro')))
-    print_out(f, "F1-Score2: " + str(sklearn.metrics.f1_score(predicted_val2_labels, validation_labels2,average='macro')))
-    print_out(f, "---------------------------\n")
-
-print("DONE")
-print("--- %s seconds ---" % (time.time() - start_time))
+print('Test Loss: {}'.format(test_loss))
+print('Test Accuracy: {}'.format(test_acc))
